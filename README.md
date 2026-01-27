@@ -3,16 +3,16 @@
 
 - [Summary](#summary)
 - [Intended key features of future package](#intended-key-features-of-future-package)
-	- [What's intended to be included (hybrid model)](#whats-intended-to-be-included-hybrid-model)
-	- [Future install process at a glance](#future-install-process-at-a-glance)
+  - [What's intended to be included (hybrid model)](#whats-intended-to-be-included-hybrid-model)
+  - [Future install process at a glance](#future-install-process-at-a-glance)
 - [What is CAP-au](#what-is-cap-au)
 - [What CAP-au feeds are available](#what-cap-au-feeds-are-available)
-	- [National](#national)
-	- [New South Wales](#new-south-wales)
-	- [Queensland](#queensland)
-	- [South Australia](#south-australia)
-	- [Victoria](#victoria)
-	- [Western Australia](#western-australia)
+  - [National](#national)
+  - [New South Wales](#new-south-wales)
+  - [Queensland](#queensland)
+  - [South Australia](#south-australia)
+  - [Victoria](#victoria)
+  - [Western Australia](#western-australia)
 
 ## Summary
 
@@ -73,6 +73,7 @@ More information: [Data.gov.au](https://data.gov.au/data/dataset/cap-au-std)
 
 > [!NOTE]
 > **List still being expanded**
+>
 > This list of feeds is still being expanded as they are found (especially since they're hard to find, or some states or agencies don't make these available publically). Please feel welcome to make a commit of you find a new CAP-au feed.
 
 ### National
