@@ -1,10 +1,1094 @@
 # data/feeds_directory.yaml
-# A human‑readable directory of example CAP sources users can consult.
-
+# Auto-generated from feed_catalog.json
+Afghanistan:
+  Authority:
+    Afghanistan - CAP Afghanistan Meteorological Department - English: https://cap-sources.s3.amazonaws.com/af-amd-en/rss.xml
+    Afghanistan - CAP National Disaster Management Authority - English: https://cap-sources.s3.amazonaws.com/af-andma-en/rss.xml
+Albania:
+  Authority:
+    Albania - CAP Institute of GeoSciences, Energy, Water and Environment - English: https://cap-sources.s3.amazonaws.com/al-igewe-en/rss.xml
+    Albania - CAP National Agency for Civil Protection - English: https://cap-sources.s3.amazonaws.com/al-nacp-en/rss.xml
+Algeria:
+  Authority:
+    Algeria - CAP مكتب الجزائر الوطني للأرصاد الجوية - العربية: https://cap-sources.s3.amazonaws.com/dz-meteo-ar/rss.xml
+    Algeria - CAP Algeria Meteo - English: https://cap-sources.s3.amazonaws.com/dz-meteo-en/rss.xml
+    Algeria - CAP Météo algérie - Français: https://cap-sources.s3.amazonaws.com/dz-meteo-fr/rss.xml
+    Algeria - CAP الحماية المدنية - العربية: https://cap-sources.s3.amazonaws.com/dz-pc-ar/rss.xml
+    Algeria - CAP Civil Protection - English: https://cap-sources.s3.amazonaws.com/dz-pc-en/rss.xml
+    Algeria - CAP Protection Civile - Français: https://cap-sources.s3.amazonaws.com/dz-pc-fr/rss.xml
+    Algeria - CAP مركز البحوث في علم الفلك والفيزياء الفلكية والجيوفيزياء - العربية: https://cap-sources.s3.amazonaws.com/dz-craag-ar/rss.xml
+    Algeria - CAP Research Center in Astronomy Astrophysics and Geophysics - English: https://cap-sources.s3.amazonaws.com/dz-craag-en/rss.xml
+    Algeria - CAP Centre de Recherche en Astronomie Astrophysique et Géophysique - Français: https://cap-sources.s3.amazonaws.com/dz-craag-fr/rss.xml
+Andorra:
+  Authority:
+    Andorra - CAP Civil Protection and Emergency Management - English: https://cap-sources.s3.amazonaws.com/ad-pcge-en/rss.xml
+    Andorra - CAP Protecció civil i gestió d’emergències - Español: https://cap-sources.s3.amazonaws.com/ad-pcge-es/rss.xml
+    Andorra - CAP Protection civile et gestion des urgences - Français: https://cap-sources.s3.amazonaws.com/ad-pcge-fr/rss.xml
+    Andorra - CAP National Meteorological Service - English: https://cap-sources.s3.amazonaws.com/ad-meteo-en/rss.xml
+    Andorra - CAP Servicio Meteorológico Nacional - Español: https://cap-sources.s3.amazonaws.com/ad-meteo-es/rss.xml
+    Andorra - CAP Service Météorologique National - Français: https://cap-sources.s3.amazonaws.com/ad-meteo-fr/rss.xml
+Angola:
+  Authority:
+    Angola - CAP National Civil Protection and Fire Service - English: https://cap-sources.s3.amazonaws.com/ao-snpcb-en/rss.xml
+    Angola - CAP Serviço Nacional de Protecção Civil e Bombeiros - Português: https://cap-sources.s3.amazonaws.com/ao-snpcb-pt/rss.xml
+    Angola - CAP National Institute of Hydrometeorology and Geophysics - English: https://cap-sources.s3.amazonaws.com/ao-inamet-en/rss.xml
+    Angola - CAP Instituto Nacional de Hidrometeorología e Geofísica - Português: https://cap-sources.s3.amazonaws.com/ao-inamet-pt/rss.xml
+Anguilla:
+  Authority:
+    Anguilla - CAP Emergency Alerts Anguilla - English: https://cap-sources.s3.amazonaws.com/ai-gov-en/rss.xml
+Antigua and Barbuda:
+  Authority:
+    Antigua and Barbuda - CAP National Office of Disaster Services - English: https://cap-sources.s3.amazonaws.com/ag-nods-en/rss.xml
+    Antigua and Barbuda - CAP Oficina Nacional de Servicios para Desastres - Español: https://cap-sources.s3.amazonaws.com/ag-nods-es/rss.xml
+    Antigua and Barbuda - CAP Bureau National des Services en Cas de Catastrophe - Français: https://cap-sources.s3.amazonaws.com/ag-nods-fr/rss.xml
+Argentina:
+  Authority:
+    Argentina - CAP National Directorate of Federal Emergency Support - English: https://cap-sources.s3.amazonaws.com/ar-dinafe-en/rss.xml
+    Argentina - CAP Dirección Nacional de Apoyo Federal a Emergencias - Español: https://cap-sources.s3.amazonaws.com/ar-dinafe-es/rss.xml
+    Argentina - CAP White Helmets - English: https://cap-sources.s3.amazonaws.com/ar-cb-en/rss.xml
+    Argentina - CAP Cascos Blancos - Español: https://cap-sources.s3.amazonaws.com/ar-cb-es/rss.xml
+Armenia:
+  Authority:
+    Armenia - CAP Hydrometeorology and Monitoring Center - English: https://cap-sources.s3.amazonaws.com/am-hmc-en/rss.xml
+    Armenia - CAP NAVENDA HÎDROMETEOROLOJÎ Û ŞOPANDINÊ - Kurmancî: https://cap-sources.s3.amazonaws.com/am-hmc-kmr/rss.xml
+    Armenia - CAP ЦЕНТР ГИДРОМЕТЕОРОЛОГИИ И МОНИТОРИНГА - Русский: https://cap-sources.s3.amazonaws.com/am-hmc-ru/rss.xml
+    Armenia - CAP Ministry of Emergency Situations - English: https://cap-sources.s3.amazonaws.com/am-mes-en/rss.xml
+    Armenia - CAP Wezareta Rewşên Awarte - Kurmancî: https://cap-sources.s3.amazonaws.com/am-mes-kmr/rss.xml
+    Armenia - CAP Министерство по чрезвычайным ситуациям - Русский: https://cap-sources.s3.amazonaws.com/am-mes-ru/rss.xml
+Aruba:
+  Authority:
+    Aruba - CAP Waarschuwing Aruba - Nederlands: https://cap-sources.s3.amazonaws.com/aw-gov-nl/rss.xml
+    Aruba - CAP Alerts Aruba - English: https://cap-sources.s3.amazonaws.com/aw-gov-en/rss.xml
+    Aruba - CAP Alerta Aruba - Papiamentu: https://cap-sources.s3.amazonaws.com/aw-gov-pap/rss.xml
+    Aruba - CAP Alertas Aruba - Español: https://cap-sources.s3.amazonaws.com/aw-gov-es/rss.xml
 Australia:
-  Western Australia (Emergency WA):
-    CAP: https://api.emergency.wa.gov.au/v1/capau
-    JSON (warnings): https://www.emergency.wa.gov.au/data/message_warnings.json
+  Australian Capital Territory:
+    Australia - CAP Department of Emergency Management - English: https://cap-sources.s3.amazonaws.com/au-dem-en/rss.xml
+  National:
+    Australia - ATOM Geoscience Australia – All Recent (ATOM) - English: https://earthquakes.ga.gov.au/feeds/all_recent.atom
+  New South Wales:
+    Australia - CAP Rural Fire Service - Current Incidents - English: https://www.rfs.nsw.gov.au/feeds/majorIncidentsCAP.xml
+  Queensland:
+    Australia - CAP Queensland - Bushfire Current Incidents - English: https://publiccontent-gis-psba-qld-gov-au.s3.amazonaws.com/content/Feeds/BushfireCurrentIncidents/bushfireAlert_capau.xml
+    Australia - CAP Disaster Queensland - Severe Weather/Flood/Cyclone Alerts - English: https://publiccontent-qld-alerts.s3.ap-southeast-2.amazonaws.com/content/Feeds/StormFloodCycloneWarnings/StormWarnings_capau.xml
+  Rural Fire Service:
+    Australia - CAP Rural Fire Service - Alerts & Warnings (Polygon) - English: https://www.rfs.nsw.gov.au/feeds/IncidentAlerts.xml
+  South Australia:
+    Australia - CAP Country Fire Service - Current Incidents - English: https://data.eso.sa.gov.au/prod/cfs/criimson/cfs_cap_incidents.xml
+  Western Australia:
+    Australia - CAP Emergency WA - CAP Feed - English: https://api.emergency.wa.gov.au/v1/capau
+Austria:
+  Authority:
+    Austria - CAP National Crisis and Disaster Protection Management - English: https://cap-sources.s3.amazonaws.com/at-skkm-en/rss.xml
+Azerbaijan:
+  Authority:
+    Azerbaijan - CAP Ministry of Emergency Situations - English: https://cap-sources.s3.amazonaws.com/az-fhn-en/rss.xml
+    Azerbaijan - CAP Wezareta Rewşên Awarte - Kurmancî: https://cap-sources.s3.amazonaws.com/az-fhn-kmr/rss.xml
+    Azerbaijan - CAP министерство чрезвычайных ситуаций - Русский: https://cap-sources.s3.amazonaws.com/az-fhn-ru/rss.xml
+    Azerbaijan - CAP National Hydrometeorological Department - English: https://cap-sources.s3.amazonaws.com/az-meteo-en/rss.xml
+    Azerbaijan - CAP Wezareta Hîdrometeorolojî ya Neteweyî - Kurmancî: https://cap-sources.s3.amazonaws.com/az-meteo-kmr/rss.xml
+    Azerbaijan - CAP Национальный гидрометеорологический департамент - Русский: https://cap-sources.s3.amazonaws.com/az-meteo-ru/rss.xml
+Bahamas:
+  Authority:
+    Bahamas - CAP National Emergency Management Agency - English: https://cap-sources.s3.amazonaws.com/bs-nema-en/rss.xml
+Bahrain:
+  Authority:
+    Bahrain - CAP الإدارة العامة للدفاع المدني - العربية: https://cap-sources.s3.amazonaws.com/bh-gdcd-ar/rss.xml
+    Bahrain - CAP General Directorate for Civil Defense - English: https://cap-sources.s3.amazonaws.com/bh-gdcd-en/rss.xml
+    Bahrain - CAP مديرية الأرصاد الجوية - العربية: https://cap-sources.s3.amazonaws.com/bh-meteo-ar/rss.xml
+    Bahrain - CAP Meteorological Directorate - English: https://cap-sources.s3.amazonaws.com/bh-meteo-en/rss.xml
+Bangladesh:
+  Authority:
+    Bangladesh - CAP Bangladesh Meteorological Department - English: https://cap-sources.s3.amazonaws.com/bd-bmd-en/rss.xml
+    Bangladesh - CAP Bangladesh Water Development Board - English: https://cap-sources.s3.amazonaws.com/bd-bwdb-en/rss.xml
+    Bangladesh - CAP Department of Disaster Management - English: https://cap-sources.s3.amazonaws.com/bd-ddm-en/rss.xml
+    Bangladesh - CAP Social Economic Development Society - English: https://cap-sources.s3.amazonaws.com/bd-seds-en/rss.xml
+Belarus:
+  Authority:
+    Belarus - CAP Ministry for Emergency Situations - English: https://cap-sources.s3.amazonaws.com/by-mchs-en/rss.xml
+    Belarus - CAP министерство чрезвычайных ситуаций - Русский: https://cap-sources.s3.amazonaws.com/by-mchs-ru/rss.xml
+Belgium:
+  Authority:
+    Belgium - CAP Civil Security - English: https://cap-sources.s3.amazonaws.com/be-sc-en/rss.xml
+Belize:
+  Authority:
+    Belize - CAP National Emergency Management Organization (NEMO) - English: https://cap-sources.s3.amazonaws.com/bz-nemo-en/rss.xml
+    Belize - CAP Organización Nacional de Manejo de Emergencias (NEMO) - Español: https://cap-sources.s3.amazonaws.com/bz-nemo-es/rss.xml
+    Belize - CAP National Hydrological Service - English: https://cap-sources.s3.amazonaws.com/bz-nhs-en/rss.xml
+    Belize - CAP Servicio Hidrológico Nacional - Español: https://cap-sources.s3.amazonaws.com/bz-nhs-es/rss.xml
+    Belize - CAP National Meteorological Service - English: https://cap-sources.s3.amazonaws.com/bz-nms-en/rss.xml
+    Belize - CAP Servicio Meteorológico Nacional - Español: https://cap-sources.s3.amazonaws.com/bz-nms-es/rss.xml
+Benin:
+  Authority:
+    Benin - CAP National Civil Protection Agency - English: https://cap-sources.s3.amazonaws.com/bj-anpc-en/rss.xml
+    Benin - CAP Agence Nationale de Protection Civile - Français: https://cap-sources.s3.amazonaws.com/bj-anpc-fr/rss.xml
+Bermuda:
+  Authority:
+    Bermuda - CAP Emergency Measures Organisation - English: https://cap-sources.s3.amazonaws.com/bm-emo-en/rss.xml
+    Bermuda - CAP Bermuda Weather Service - English: https://cap-sources.s3.amazonaws.com/bm-bws-en/rss.xml
+Bhutan:
+  Authority:
+    Bhutan - CAP Department of Disaster Management - English: https://cap-sources.s3.amazonaws.com/bt-ddm-en/rss.xml
+    Bhutan - CAP National Center for Hydrology and Meteorology - English: https://cap-sources.s3.amazonaws.com/bt-nchm-en/rss.xml
+Bolivia:
+  Authority:
+    Bolivia - CAP National Meteorology and Hydrology Service - English: https://cap-sources.s3.amazonaws.com/bo-senamhi-en/rss.xml
+    Bolivia - CAP Servicio Nacional de Meteorología e Hidrología - Español: https://cap-sources.s3.amazonaws.com/bo-senamhi-es/rss.xml
+    Bolivia - CAP Vice Ministry for Civil Defense - English: https://cap-sources.s3.amazonaws.com/bo-dc-en/rss.xml
+    Bolivia - CAP Viceministerio de Defensa Civil - Español: https://cap-sources.s3.amazonaws.com/bo-dc-es/rss.xml
+Bosnia and Herzegovina:
+  Authority:
+    Bosnia and Herzegovina - CAP Ministry of Security - English: https://cap-sources.s3.amazonaws.com/ba-msb-en/rss.xml
+Botswana:
+  Authority:
+    Botswana - CAP Department of Meteorological Services - English: https://cap-sources.s3.amazonaws.com/bw-met-en/rss.xml
+    Botswana - CAP National Disaster Management Office - English: https://cap-sources.s3.amazonaws.com/bw-ndmo-en/rss.xml
+    Botswana - CAP Botswana Red Cross Society - English: https://cap-sources.s3.amazonaws.com/bw-brcs-en/rss.xml
+Brazil:
+  Authority:
+    Brazil - CAP National Center for Monitoring and Warning of Natural Disasters - English: https://cap-sources.s3.amazonaws.com/br-cemaden-en/rss.xml
+    Brazil - CAP Centro Nacional de Monitoramento e Alertas de Desastres Naturais - Português: https://cap-sources.s3.amazonaws.com/br-cemaden-pt/rss.xml
+Brunei Darussalam:
+  Authority:
+    Brunei Darussalam - CAP Brunei Darussalam Meteorological Department - English: https://cap-sources.s3.amazonaws.com/bn-bdmd-en/rss.xml
+    Brunei Darussalam - CAP National Disaster Management Center - English: https://cap-sources.s3.amazonaws.com/bn-ndmd-en/rss.xml
+Bulgaria:
+  Authority:
+    Bulgaria - CAP Fire Safety and Civil Protection Chief Directorate - English: https://cap-sources.s3.amazonaws.com/bg-ews-en/rss.xml
+Burkina Faso:
+  Authority:
+    Burkina Faso - CAP General Directorate for Civil Protection - English: https://cap-sources.s3.amazonaws.com/bf-bnsp-en/rss.xml
+    Burkina Faso - CAP Direction Générale de la Protection Civile - Français: https://cap-sources.s3.amazonaws.com/bf-bnsp-fr/rss.xml
+Burundi:
+  Authority:
+    Burundi - CAP Civil Protection - English: https://cap-sources.s3.amazonaws.com/bi-pc-en/rss.xml
+    Burundi - CAP Protection Civile - Français: https://cap-sources.s3.amazonaws.com/bi-pc-fr/rss.xml
+    Burundi - CAP Geographical Institute of Burundi - English: https://cap-sources.s3.amazonaws.com/bi-igebu-en/rss.xml
+    Burundi - CAP Institut Géographique du Burundi - Français: https://cap-sources.s3.amazonaws.com/bi-igebu-fr/rss.xml
+Cabo Verde:
+  Authority:
+    Cabo Verde - CAP National Civil Protection Service - English: https://cap-sources.s3.amazonaws.com/cv-snpc-en/rss.xml
+    Cabo Verde - CAP Serviço Nacional de Protecção Civil - Português: https://cap-sources.s3.amazonaws.com/cv-snpc-pt/rss.xml
+    Cabo Verde - CAP National Institute of Meteorology and Geophysics - English: https://cap-sources.s3.amazonaws.com/cv-inmg-en/rss.xml
+    Cabo Verde - CAP Instituto Nacional de Meteorologia e Geofisica - Português: https://cap-sources.s3.amazonaws.com/cv-inmg-pt/rss.xml
+Cambodia:
+  Authority:
+    Cambodia - CAP Department of Meteorology (DOM) - English: https://cap-sources.s3.amazonaws.com/kh-dom-en/rss.xml
+    Cambodia - CAP នាយកដ្ឋានឧតុនិយម - km: https://cap-sources.s3.amazonaws.com/kh-dom-km/rss.xml
+    Cambodia - CAP ภาควิชาอุตุนิยมวิทยา - th: https://cap-sources.s3.amazonaws.com/kh-dom-th/rss.xml
+    Cambodia - CAP National Committee for Disaster Management - English: https://cap-sources.s3.amazonaws.com/kh-ncdm-en/rss.xml
+    Cambodia - CAP គណៈកម្មាធិការជាតិគ្រប់គ្រងគ្រោះមហន្តរាយ - km: https://cap-sources.s3.amazonaws.com/kh-ncdm-km/rss.xml
+    Cambodia - CAP คณะกรรมการจัดการภัยพิบัติแห่งชาติ - th: https://cap-sources.s3.amazonaws.com/kh-ncdm-th/rss.xml
+Cameroon:
+  Authority:
+    Cameroon - CAP Civil Protection Directorate - English: https://cap-sources.s3.amazonaws.com/cm-dpc-en/rss.xml
+    Cameroon - CAP Direction de la Protection Civile - Français: https://cap-sources.s3.amazonaws.com/cm-dpc-fr/rss.xml
+    Cameroon - CAP Cibiyar Kare Jama'a - Hausa: https://cap-sources.s3.amazonaws.com/cm-dpc-ha/rss.xml
+    Cameroon - CAP Directorate of National Meteorology - English: https://cap-sources.s3.amazonaws.com/cm-meteo-en/rss.xml
+    Cameroon - CAP Direction de la Météorologie Nationale - Français: https://cap-sources.s3.amazonaws.com/cm-meteo-fr/rss.xml
+    Cameroon - CAP Hukumar Kula da Yanayin Kasa ta Kasa - Hausa: https://cap-sources.s3.amazonaws.com/cm-meteo-ha/rss.xml
+Canada:
+  Authority:
+    Canada - CAP Disaster Prevention and Mitigation - English: https://cap-sources.s3.amazonaws.com/ca-psc-en/rss.xml
+    Canada - CAP Prévention et atténuation des catastrophes - Français: https://cap-sources.s3.amazonaws.com/ca-psc-fr/rss.xml
+Cayman Islands:
+  Authority:
+    Cayman Islands - CAP Cayman Islands National Weather Service - English: https://cap-sources.s3.amazonaws.com/ky-cinws-en/rss.xml
+    Cayman Islands - CAP Servicio Meteorológico Nacional de las Islas Caimán - Español: https://cap-sources.s3.amazonaws.com/ky-cinws-es/rss.xml
+    Cayman Islands - CAP Hazard Management Cayman Islands - English: https://cap-sources.s3.amazonaws.com/ky-hmci-en/rss.xml
+    Cayman Islands - CAP Gestión de Riesgos Islas Caimán - Español: https://cap-sources.s3.amazonaws.com/ky-hmci-es/rss.xml
+Central African Republic:
+  Authority:
+    Central African Republic - CAP Directorate General of Civil Protection - English: https://cap-sources.s3.amazonaws.com/cf-dgpc-en/rss.xml
+    Central African Republic - CAP Direction Générale de la Protection Civile - Français: https://cap-sources.s3.amazonaws.com/cf-dgpc-fr/rss.xml
+    Central African Republic - CAP Directorate of National Meteorology - English: https://cap-sources.s3.amazonaws.com/cf-dmn-en/rss.xml
+    Central African Republic - CAP Direction de la Météorologie Nationale - Français: https://cap-sources.s3.amazonaws.com/cf-dmn-fr/rss.xml
+Chad:
+  Authority:
+    Chad - CAP Civil Protection - English: https://cap-sources.s3.amazonaws.com/td-pc-en/rss.xml
+    Chad - CAP Protection Civile - Français: https://cap-sources.s3.amazonaws.com/td-pc-fr/rss.xml
+    Chad - CAP Kariyar Jama'a - Hausa: https://cap-sources.s3.amazonaws.com/td-pc-ha/rss.xml
+    Chad - CAP Directorate of Water Resources and Meteorology - English: https://cap-sources.s3.amazonaws.com/td-drem-en/rss.xml
+    Chad - CAP Direction des Ressources en Eau et de la Météorologie - Français: https://cap-sources.s3.amazonaws.com/td-drem-fr/rss.xml
+    Chad - CAP Cibiyar Kula da Albarkatun Ruwa da Yanayin yanayi - Hausa: https://cap-sources.s3.amazonaws.com/td-drem-ha/rss.xml
+    Chad - CAP National Meteorological Agency - English: https://cap-sources.s3.amazonaws.com/td-anam-en/rss.xml
+    Chad - CAP Agence Nationale de la Météorologie - Français: https://cap-sources.s3.amazonaws.com/td-anam-fr/rss.xml
+    Chad - CAP Hukumar Kula da Yanayi ta Kasa - Hausa: https://cap-sources.s3.amazonaws.com/td-anam-ha/rss.xml
+Chile:
+  Authority:
+    Chile - CAP Directorate General of Water - English: https://cap-sources.s3.amazonaws.com/cl-dga-en/rss.xml
+    Chile - CAP Dirección General de Aguas - Español: https://cap-sources.s3.amazonaws.com/cl-dga-es/rss.xml
+    Chile - CAP National Disaster Prevention and Response Service - English: https://cap-sources.s3.amazonaws.com/cl-senapred-en/rss.xml
+    Chile - CAP Servicio Nacional de Prevención y Respuesta ante Desastres - Español: https://cap-sources.s3.amazonaws.com/cl-senapred-es/rss.xml
+China:
+  Authority:
+    China - CAP 应急管理部 - zh: https://cap-sources.s3.amazonaws.com/cn-mem-zh/rss.xml
+    China - CAP Ministry of Emergency  Management - English: https://cap-sources.s3.amazonaws.com/cn-mem-en/rss.xml
+Colombia:
+  Authority:
+    Colombia - CAP Colombian Civil Defense - English: https://cap-sources.s3.amazonaws.com/co-dcc-en/rss.xml
+    Colombia - CAP Defensa Civil Colombiana - Español: https://cap-sources.s3.amazonaws.com/co-dcc-es/rss.xml
+    Colombia - CAP Communications Regulation Commission - English: https://cap-sources.s3.amazonaws.com/co-crc-en/rss.xml
+    Colombia - CAP Comisión de Regulación de Comunicaciones - Español: https://cap-sources.s3.amazonaws.com/co-crc-es/rss.xml
+    Colombia - CAP Institute of Hydrology, Meteorology and Environmental Studies - English: https://cap-sources.s3.amazonaws.com/co-ideam-en/rss.xml
+    Colombia - CAP Instituto de Hidrología, Meteorología y Estudios Ambientales - Español: https://cap-sources.s3.amazonaws.com/co-ideam-es/rss.xml
+    Colombia - CAP District Institute for Risk Management and Climate Change - English: https://cap-sources.s3.amazonaws.com/co-idiger-en/rss.xml
+    Colombia - CAP Instituto Distrital de Gestión de Riesgos y Cambio Climático - Español: https://cap-sources.s3.amazonaws.com/co-idiger-es/rss.xml
+Comoros:
+  Authority:
+    Comoros - CAP المديرية العامة للأمن المدني - العربية: https://cap-sources.s3.amazonaws.com/km-dgsc-ar/rss.xml
+    Comoros - CAP Directorate General of Civil Security - English: https://cap-sources.s3.amazonaws.com/km-dgsc-en/rss.xml
+    Comoros - CAP Direction Générale de la Sécurité Civile - Français: https://cap-sources.s3.amazonaws.com/km-dgsc-fr/rss.xml
+    Comoros - CAP الوكالة الوطنية للطيران المدني والأرصاد الجوية - العربية: https://cap-sources.s3.amazonaws.com/km-anacm-ar/rss.xml
+    Comoros - CAP National Agency of Civil Aviation and Meteorology - English: https://cap-sources.s3.amazonaws.com/km-anacm-en/rss.xml
+    Comoros - CAP Agence Nationale de l'Aviation Civile et de la Météorologie - Français: https://cap-sources.s3.amazonaws.com/km-anacm-fr/rss.xml
+Congo:
+  Authority:
+    Congo - CAP National Civil Aviation Agency - English: https://cap-sources.s3.amazonaws.com/cg-anac-en/rss.xml
+    Congo - CAP Agence Nationale de l'Aviation Civile - Français: https://cap-sources.s3.amazonaws.com/cg-anac-fr/rss.xml
+Congo (Democratic Republic of the):
+  Authority:
+    Congo (Democratic Republic of the) - CAP Association of Farmers, Planters and Breeders of Congo - English: https://cap-sources.s3.amazonaws.com/cd-aapec-en/rss.xml
+    Congo (Democratic Republic of the) - CAP Association des Agriculteurs, Planteurs et Eleveurs du Congo - Français: https://cap-sources.s3.amazonaws.com/cd-aapec-fr/rss.xml
+    Congo (Democratic Republic of the) - CAP Directorate General of Civil Protection - English: https://cap-sources.s3.amazonaws.com/cd-dgpc-en/rss.xml
+    Congo (Democratic Republic of the) - CAP Direction Générale de la Protection Civile - Français: https://cap-sources.s3.amazonaws.com/cd-dgpc-fr/rss.xml
+    Congo (Democratic Republic of the) - CAP National Agency of Meteorology and Satellite Remote Sensing - English: https://cap-sources.s3.amazonaws.com/cd-mettelsat-en/rss.xml
+    Congo (Democratic Republic of the) - CAP Agence Nationale de la Météorologie et de Télédétection par Satellite - Français: https://cap-sources.s3.amazonaws.com/cd-mettelsat-fr/rss.xml
+Cook Islands:
+  Authority:
+    Cook Islands - CAP Emergency Management - English: https://cap-sources.s3.amazonaws.com/ck-emci-en/rss.xml
+    Cook Islands - CAP Meteorological Service - English: https://cap-sources.s3.amazonaws.com/ck-met-en/rss.xml
+Costa Rica:
+  Authority:
+    Costa Rica - CAP National Emergency Commission - English: https://cap-sources.s3.amazonaws.com/cr-cne-en/rss.xml
+    Costa Rica - CAP Comision Nacional de Emergencias - Español: https://cap-sources.s3.amazonaws.com/cr-cne-es/rss.xml
+    Costa Rica - CAP National Meteorological Institute - English: https://cap-sources.s3.amazonaws.com/cr-imn-en/rss.xml
+    Costa Rica - CAP Instituto Meteorologico Nacional - Español: https://cap-sources.s3.amazonaws.com/cr-imn-es/rss.xml
+    Costa Rica - CAP National Tsunami Monitoring System - English: https://cap-sources.s3.amazonaws.com/cr-sinamot-en/rss.xml
+    Costa Rica - CAP Sistema Nacional de Monitoreo de Tsunamis - Español: https://cap-sources.s3.amazonaws.com/cr-sinamot-es/rss.xml
+Croatia:
+  Authority:
+    Croatia - CAP National Protection and Rescue Directorate - English: https://cap-sources.s3.amazonaws.com/hr-ncz-en/rss.xml
+Cuba:
+  Authority:
+    Cuba - CAP Institute of Meteorology - English: https://cap-sources.s3.amazonaws.com/cu-insmet-en/rss.xml
+    Cuba - CAP Instituto de Meteorología - Español: https://cap-sources.s3.amazonaws.com/cu-insmet-es/rss.xml
+Curaçao:
+  Authority:
+    Curaçao - CAP Crisisbeheersings & Rampenbestrijdingsorganisatie - Nederlands: https://cap-sources.s3.amazonaws.com/cw-crbo-nl/rss.xml
+    Curaçao - CAP Disaster Management Organization - English: https://cap-sources.s3.amazonaws.com/cw-crbo-en/rss.xml
+    Kòrsou - CAP Organisashon pa Kontrol i Kombati Desaster - Papiamentu: https://cap-sources.s3.amazonaws.com/cw-crbo-pap/rss.xml
+    Curaçao - CAP Organización de Gestión de Crisis y Respuesta a Desastres - Español: https://cap-sources.s3.amazonaws.com/cw-crbo-es/rss.xml
+    Curaçao - CAP Meteorologische Dienst Curacao - Nederlands: https://cap-sources.s3.amazonaws.com/cw-meteo-nl/rss.xml
+    Curaçao - CAP Meteorological Department Curacao - English: https://cap-sources.s3.amazonaws.com/cw-meteo-en/rss.xml
+    Kòrsou - CAP Servisio Meteorologiko Korsou - Papiamentu: https://cap-sources.s3.amazonaws.com/cw-meteo-pap/rss.xml
+    Curaçao - CAP Departamento Meteorológico de Curazao - Español: https://cap-sources.s3.amazonaws.com/cw-meteo-es/rss.xml
+Cyprus:
+  Authority:
+    Cyprus - CAP Civil Defense - English: https://cap-sources.s3.amazonaws.com/cy-cd-en/rss.xml
+Czechia:
+  Authority:
+    Czechia - CAP Fire Rescue Service of the Czech Republic - English: https://cap-sources.s3.amazonaws.com/cz-frs-en/rss.xml
+Côte d’Ivoire:
+  Authority:
+    Côte d’Ivoire - CAP Exploitation and Airport Development, Aeronautics and Meteorology Company - English: https://cap-sources.s3.amazonaws.com/ci-sodexam-en/rss.xml
+    Côte d’Ivoire - CAP Société d'Exploitation et de Developpement Aéroportuaire, Aéronautique et Météorologique - Français: https://cap-sources.s3.amazonaws.com/ci-sodexam-fr/rss.xml
+    Côte d’Ivoire - CAP National Office of Civil Protection - English: https://cap-sources.s3.amazonaws.com/ci-onpc-en/rss.xml
+    Côte d’Ivoire - CAP Office Nationale de la Protection Civile - Français: https://cap-sources.s3.amazonaws.com/ci-onpc-fr/rss.xml
+Denmark:
+  Authority:
+    Denmark - CAP Danish Emergency Management Agency - English: https://cap-sources.s3.amazonaws.com/dk-brs-en/rss.xml
+Djibouti:
+  Authority:
+    Djibouti - CAP National Meteorological Agency - English: https://cap-sources.s3.amazonaws.com/dj-meteo-en/rss.xml
+    Djibouti - CAP Agence Nationale de la Météorologie - Français: https://cap-sources.s3.amazonaws.com/dj-meteo-fr/rss.xml
+    Djibouti - CAP Executive Secretariat for Management of Risks and Disasters - English: https://cap-sources.s3.amazonaws.com/dj-segrc-en/rss.xml
+    Djibouti - CAP Sécretariat éxécutif gestion des risques et catastrophes - Français: https://cap-sources.s3.amazonaws.com/dj-segrc-fr/rss.xml
+Dominica:
+  Authority:
+    Dominica - CAP Office of Disaster Management (ODM) - English: https://cap-sources.s3.amazonaws.com/dm-odm-en/rss.xml
+    Dominica - CAP Dominica Meteorological Services - English: https://cap-sources.s3.amazonaws.com/dm-dms-en/rss.xml
+Dominican Republic:
+  Authority:
+    Dominican Republic - CAP Comision Nacional de Emergencias - Español: https://cap-sources.s3.amazonaws.com/do-cne-es/rss.xml
+    Dominican Republic - CAP Instituto Dominicano de Meteorología - Español: https://cap-sources.s3.amazonaws.com/do-indomet-es/rss.xml
+Ecuador:
+  Authority:
+    Ecuador - CAP National Institute of Meteorology and Hydrology - English: https://cap-sources.s3.amazonaws.com/ec-inamhi-en/rss.xml
+    Ecuador - CAP Instituto Nacional de Meteorología e Hidrología - Español: https://cap-sources.s3.amazonaws.com/ec-inamhi-es/rss.xml
+    Ecuador - CAP National Secretariat of Risk Management (SNGR) - English: https://cap-sources.s3.amazonaws.com/ec-sngr-en/rss.xml
+    Ecuador - CAP Secretaría Nacional de Gestión de Riesgos (SNGR) - Español: https://cap-sources.s3.amazonaws.com/ec-sngr-es/rss.xml
+Egypt:
+  Authority:
+    Egypt - CAP الإدارة العامة للدفاع المدني - العربية: https://cap-sources.s3.amazonaws.com/eg-cd-ar/rss.xml
+    Egypt - CAP General Administration of Civil Defense - English: https://cap-sources.s3.amazonaws.com/eg-cd-en/rss.xml
+    Egypt - CAP هيئة الأرصاد الجوية المصرية - العربية: https://cap-sources.s3.amazonaws.com/eg-ema-ar/rss.xml
+    Egypt - CAP Meteorological Authority - English: https://cap-sources.s3.amazonaws.com/eg-ema-en/rss.xml
+    Egypt - CAP معهد البحوث الوطني لعلم الفلك والجيوفيزياء - العربية: https://cap-sources.s3.amazonaws.com/eg-ntra-ar/rss.xml
+    Egypt - CAP National Research Institute of Astronomy and Geophysics - English: https://cap-sources.s3.amazonaws.com/eg-nriag-en/rss.xml
+    Egypt - CAP National Telecommunications Regulatory Authority - English: https://cap-sources.s3.amazonaws.com/eg-ntra-en/rss.xml
+El Salvador:
+  Authority:
+    El Salvador - CAP General Directorate of Civil Protection, Disaster Prevention and Mitigation - English: https://cap-sources.s3.amazonaws.com/sv-dgpc-en/rss.xml
+    El Salvador - CAP Dirección General de Protección Civil, Prevención y Mitigación de Desastres - Español: https://cap-sources.s3.amazonaws.com/sv-dgpc-es/rss.xml
+    El Salvador - CAP Ministry of Environment and Natural Resources - English: https://cap-sources.s3.amazonaws.com/sv-marn-en/rss.xml
+    El Salvador - CAP Ministerio de Medio Ambiente y Recursos Naturales - Español: https://cap-sources.s3.amazonaws.com/sv-marn-es/rss.xml
+Equatorial Guinea:
+  Authority:
+    Equatorial Guinea - CAP National Meteorological Service - English: https://cap-sources.s3.amazonaws.com/gq-smn-en/rss.xml
+    Equatorial Guinea - CAP Service Météorologique National - Français: https://cap-sources.s3.amazonaws.com/gq-smn-fr/rss.xml
+    Equatorial Guinea - CAP Serviço Meteorológico Nacional - Português: https://cap-sources.s3.amazonaws.com/gq-smn-pt/rss.xml
+    Equatorial Guinea - CAP Servicio Meteorológico Nacional - Español: https://cap-sources.s3.amazonaws.com/gq-smn-es/rss.xml
+Eritrea:
+  Authority:
+    Eritrea - CAP Civil Aviation Authority - English: https://cap-sources.s3.amazonaws.com/er-caa-en/rss.xml
+Estonia:
+  Authority:
+    Estonia - CAP Emergency Response Center - English: https://cap-sources.s3.amazonaws.com/ee-erc-en/rss.xml
+    Estonia - CAP Центра тревоги - Русский: https://cap-sources.s3.amazonaws.com/ee-erc-ru/rss.xml
+Eswatini:
+  Authority:
+    Eswatini - CAP Eswatini Meteorological Service - English: https://cap-sources.s3.amazonaws.com/sz-met-en/rss.xml
+    Eswatini - CAP Eswatini National Disaster Management Agency - English: https://cap-sources.s3.amazonaws.com/sz-ndma-en/rss.xml
+Ethiopia:
+  Authority:
+    Ethiopia - CAP የኢትዮጵያ ሜትሮሎጂ ተቋም - am: https://cap-sources.s3.amazonaws.com/et-emi-am/rss.xml
+    Ethiopia - CAP Ethiopian Meteorological Institute - English: https://cap-sources.s3.amazonaws.com/et-emi-en/rss.xml
+    Ethiopia - CAP Inistiitiyuutii Meetirooloojii Itoophiyaa - om: https://cap-sources.s3.amazonaws.com/et-emi-om/rss.xml
+    Ethiopia - CAP Machadka Saadaasha Hawada Itoobiya - so: https://cap-sources.s3.amazonaws.com/et-emi-so/rss.xml
+    Ethiopia - CAP ብሔራዊ የአደጋ ስጋት አመራር ኮሚሽን - am: https://cap-sources.s3.amazonaws.com/et-ndrmc-am/rss.xml
+    Ethiopia - CAP National Disaster Risk Management Commission - English: https://cap-sources.s3.amazonaws.com/et-ndrmc-en/rss.xml
+    Ethiopia - CAP Gudiga Maareynta Musiibooyinka Qaranka - so: https://cap-sources.s3.amazonaws.com/et-ndrmc-so/rss.xml
+Fiji:
+  Authority:
+    Fiji - CAP Fiji Meteorological Service - English: https://cap-sources.s3.amazonaws.com/fj-fms-en/rss.xml
+    Fiji - CAP National Disaster Management Office - English: https://cap-sources.s3.amazonaws.com/fj-ndmo-en/rss.xml
+Finland:
+  Authority:
+    Finland - CAP Crisis Management Centre - English: https://cap-sources.s3.amazonaws.com/fi-cmc-en/rss.xml
+French Polynesia:
+  Authority:
+    French Polynesia - CAP Defense and Civil Protection Directorate - English: https://cap-sources.s3.amazonaws.com/pf-ddpc-en/rss.xml
+    French Polynesia - CAP Direction de la Defense et de la Protection Civile - Français: https://cap-sources.s3.amazonaws.com/pf-ddpc-fr/rss.xml
+Gabon:
+  Authority:
+    Gabon - CAP Directorate General of Civil Protection - English: https://cap-sources.s3.amazonaws.com/ga-dgpc-en/rss.xml
+    Gabon - CAP Direction Générale de la Protection Civile - Français: https://cap-sources.s3.amazonaws.com/ga-dgpc-fr/rss.xml
+    Gabon - CAP Directorate General of Meteorology - English: https://cap-sources.s3.amazonaws.com/ga-dgm-en/rss.xml
+    Gabon - CAP Direction Generale de la Météorologie - Français: https://cap-sources.s3.amazonaws.com/ga-dgm-fr/rss.xml
+Gambia:
+  Authority:
+    Gambia - CAP Department of Water Resources - English: https://cap-sources.s3.amazonaws.com/gm-dwr-en/rss.xml
+    Gambia - CAP National Disaster Management Agency - English: https://cap-sources.s3.amazonaws.com/gm-ndma-en/rss.xml
+Georgia:
+  Authority:
+    Georgia - CAP Emergency Management Service - English: https://cap-sources.s3.amazonaws.com/ge-es-en/rss.xml
+    Georgia - CAP Hydrometeorological Department - English: https://cap-sources.s3.amazonaws.com/ge-hydromet-en/rss.xml
+    Georgia - CAP Ministry of Economy and Sustainable Development - English: https://cap-sources.s3.amazonaws.com/ge-moesd-en/rss.xml
+    Georgia - CAP National Environmental Agency - English: https://cap-sources.s3.amazonaws.com/ge-nea-en/rss.xml
+Germany:
+  Authority:
+    Germany - CAP Federal Office of Civil Protection and Disaster Assistance - English: https://cap-sources.s3.amazonaws.com/de-bbk-en/rss.xml
+Ghana:
+  Authority:
+    Ghana - CAP Ghana Meteorological Agency - English: https://cap-sources.s3.amazonaws.com/gh-gmet-en/rss.xml
+    Ghana - CAP Hukumar Kula da Yanayi ta Ghana - Hausa: https://cap-sources.s3.amazonaws.com/gh-gmet-ha/rss.xml
+    Ghana - CAP National Disaster Management Organization - English: https://cap-sources.s3.amazonaws.com/gh-nadmo-en/rss.xml
+    Ghana - CAP Kungiyar Kula da Bala'i ta Kasa - Hausa: https://cap-sources.s3.amazonaws.com/gh-nadmo-ha/rss.xml
+Greece:
+  Authority:
+    Greece - CAP General Secretariat for Civil Protection - English: https://cap-sources.s3.amazonaws.com/gr-gscp-en/rss.xml
+Grenada:
+  Authority:
+    Grenada - CAP National Disaster Management Agency (NaDMA) - English: https://cap-sources.s3.amazonaws.com/gd-nadma-en/rss.xml
+    Grenada - CAP Caribbean Meteorological Organization - English: https://cap-sources.s3.amazonaws.com/gd-cmo-en/rss.xml
+Guatemala:
+  Authority:
+    Guatemala - CAP Coordinadora Nacional para la Reducción de Desastres - Español: https://cap-sources.s3.amazonaws.com/gt-conred-es/rss.xml
+    Guatemala - CAP Instituto Nacional de Sismología, Vulcanología, Meteorología e Hidrología - Español: https://cap-sources.s3.amazonaws.com/gt-insivumeh-es/rss.xml
+    Guatemala - CAP Ministerio de Agricultura, Ganadería y Alimentación - Español: https://cap-sources.s3.amazonaws.com/gt-maga-es/rss.xml
+    Guatemala - CAP Ministerio de Ambiente y Recursos Naturales - Español: https://cap-sources.s3.amazonaws.com/gt-marn-es/rss.xml
+    Guatemala - CAP Ministerio de Salud Pública y Asistencia Social - Español: https://cap-sources.s3.amazonaws.com/gt-mspas-es/rss.xml
+Guinea:
+  Authority:
+    Guinea - CAP National Agency of Meteorology - English: https://cap-sources.s3.amazonaws.com/gn-anm-en/rss.xml
+    Guinea - CAP Agence Nationale de la Météorologie - Français: https://cap-sources.s3.amazonaws.com/gn-anm-fr/rss.xml
+    Guinea - CAP National Center for Management of Disasters and Environmental Emergencies - English: https://cap-sources.s3.amazonaws.com/gn-cngcue-en/rss.xml
+    Guinea - CAP Centre National de Gestion des Catastrophes et Urgences Environnementales - Français: https://cap-sources.s3.amazonaws.com/gn-cngcue-fr/rss.xml
+Guinea-Bissau:
+  Authority:
+    Guinea-Bissau - CAP Directorate General of Water Resources - English: https://cap-sources.s3.amazonaws.com/gw-dgrh-en/rss.xml
+    Guinea-Bissau - CAP Direction générale des ressources en eau - Français: https://cap-sources.s3.amazonaws.com/gw-dgrh-fr/rss.xml
+    Guinea-Bissau - CAP Direcção Geral dos Recursos Hídricos - Português: https://cap-sources.s3.amazonaws.com/gw-dgrh-pt/rss.xml
+    Guinea-Bissau - CAP National Institute of Meteorology - English: https://cap-sources.s3.amazonaws.com/gw-inm-en/rss.xml
+    Guinea-Bissau - CAP Institut National de Météorologie - Français: https://cap-sources.s3.amazonaws.com/gw-inm-fr/rss.xml
+    Guinea-Bissau - CAP Instituto Nacional de Meteorologia - Português: https://cap-sources.s3.amazonaws.com/gw-inm-pt/rss.xml
+    Guinea-Bissau - CAP National Service of Civil Protection - English: https://cap-sources.s3.amazonaws.com/gw-snpc-en/rss.xml
+    Guinea-Bissau - CAP Service National de Protection Civile - Français: https://cap-sources.s3.amazonaws.com/gw-snpc-fr/rss.xml
+Guyana:
+  Authority:
+    Guyana - CAP Civil Defense Commission - English: https://cap-sources.s3.amazonaws.com/gy-cdc-en/rss.xml
+    Guyana - CAP Hydrometeorological Service - English: https://cap-sources.s3.amazonaws.com/gy-hms-en/rss.xml
+Haiti:
+  Authority:
+    Haiti - CAP Civil Protection Directorate (DPC) - English: https://cap-sources.s3.amazonaws.com/ht-dpc-en/rss.xml
+    Haiti - CAP Direction de la Protection Civile (DPC) - Français: https://cap-sources.s3.amazonaws.com/ht-dpc-fr/rss.xml
+    Haiti - CAP Direktè Pwoteksyon Sivil - ht: https://cap-sources.s3.amazonaws.com/ht-dpc-ht/rss.xml
+    Haiti - CAP National Meteorology Center - English: https://cap-sources.s3.amazonaws.com/ht-meteo-en/rss.xml
+    Haiti - CAP Centre National de Météorologi - Français: https://cap-sources.s3.amazonaws.com/ht-meteo-fr/rss.xml
+    Haiti - CAP Sant Meteyoloji Nasyonal - ht: https://cap-sources.s3.amazonaws.com/ht-meteo-ht/rss.xml
+Honduras:
+  Authority:
+    Honduras - CAP Committee of Municipal Emergency (CODEM) - English: https://cap-sources.s3.amazonaws.com/hn-codem-en/rss.xml
+    Honduras - CAP Comité de Emergencia Municipal (CODEM) - Español: https://cap-sources.s3.amazonaws.com/hn-codem-es/rss.xml
+    Honduras - CAP Permanent Contingency Commission (COPECO) - English: https://cap-sources.s3.amazonaws.com/hn-copeco-en/rss.xml
+    Honduras - CAP Comision Permanente de Contingencias (COPECO) - Español: https://cap-sources.s3.amazonaws.com/hn-copeco-es/rss.xml
+Hungary:
+  Authority:
+    Hungary - CAP Disaster Management Office - English: https://cap-sources.s3.amazonaws.com/hu-okf-en/rss.xml
+Iceland:
+  Authority:
+    Iceland - CAP Department of Civil Protection and Emergency Management - English: https://cap-sources.s3.amazonaws.com/is-ncip-en/rss.xml
+India:
+  Authority:
+    India - CAP India Meteorological Department - English: https://cap-sources.s3.amazonaws.com/in-imd-en/rss.xml
+Indonesia:
+  Authority:
+    Indonesia - CAP National Agency for Disaster Management - English: https://cap-sources.s3.amazonaws.com/id-bnpb-en/rss.xml
+Iran:
+  Authority:
+    Iran - CAP Iran Meteorological Organization - English: https://cap-sources.s3.amazonaws.com/ir-irimo-en/rss.xml
+    ئێران - CAP ڕێکخراوی کەشناسیی ئێران - کوردیی ناوەندی: https://cap-sources.s3.amazonaws.com/ir-irimo-ckb/rss.xml
+    Iran - CAP سازمان هواشناسی - fa: https://cap-sources.s3.amazonaws.com/ir-irimo-fa/rss.xml
+Iraq:
+  Authority:
+    Iraq - CAP هيئة الأرصاد الجوية العراقية وعلم الزلازل - العربية: https://cap-sources.s3.amazonaws.com/iq-imos-ar/rss.xml
+    Iraq - CAP Iraqi Meteorological Organization and Seismology - English: https://cap-sources.s3.amazonaws.com/iq-imos-en/rss.xml
+    ئێراق - CAP ناوەندی هەماهەنگی و چاودێری هاوبەش - کوردیی ناوەندی: https://cap-sources.s3.amazonaws.com/iq-imos-ckb/rss.xml
+    Iraq - CAP المركز المشترك للتنسيق والرصد - العربية: https://cap-sources.s3.amazonaws.com/iq-jcmc-ar/rss.xml
+    Iraq - CAP Joint Coordination and Monitoring Center - English: https://cap-sources.s3.amazonaws.com/iq-jcmc-en/rss.xml
+    ئێراق - CAP Jناوەندی هەماهەنگی و چاودێری هاوبەش - کوردیی ناوەندی: https://cap-sources.s3.amazonaws.com/iq-jcmc-ckb/rss.xml
+Ireland:
+  Authority:
+    Ireland - CAP National Emergency Coordination Group - English: https://cap-sources.s3.amazonaws.com/ie-necg-en/rss.xml
+Israel:
+  Authority:
+    Israel - CAP National Emergency Management Authority - English: https://cap-sources.s3.amazonaws.com/il-nema-en/rss.xml
+Italy:
+  Authority:
+    Italy - CAP Civil Protection - English: https://cap-sources.s3.amazonaws.com/it-pc-en/rss.xml
+    Italy - CAP Protezione Civile - Italiano: https://cap-sources.s3.amazonaws.com/it-pc-it/rss.xml
+Jamaica:
+  Authority:
+    Jamaica - CAP Office of Disaster Preparedness and Emergency Management - English: https://cap-sources.s3.amazonaws.com/jm-odpem-en/rss.xml
+Jersey:
+  Authority:
+    Jersey - CAP Jersey Meteorological Service - English: https://cap-sources.s3.amazonaws.com/je-met-en/rss.xml
+    Jersey - CAP Service Météorologique de Jersey - Français: https://cap-sources.s3.amazonaws.com/je-met-fr/rss.xml
+Jordan:
+  Authority:
+    Jordan - CAP الدفاع المدني - العربية: https://cap-sources.s3.amazonaws.com/jo-cdd-ar/rss.xml
+    Jordan - CAP Civil Defence - English: https://cap-sources.s3.amazonaws.com/jo-cdd-en/rss.xml
+    Jordan - CAP قسم الأرصاد الجوية - العربية: https://cap-sources.s3.amazonaws.com/jo-meteo-ar/rss.xml
+    Jordan - CAP Meteorological Department - English: https://cap-sources.s3.amazonaws.com/jo-meteo-en/rss.xml
+Kazakhstan:
+  Authority:
+    Kazakhstan - CAP Committee for Emergency Situations - English: https://cap-sources.s3.amazonaws.com/kz-emer-en/rss.xml
+    Kazakhstan - CAP Комитет по чрезвычайным ситуациям - Русский: https://cap-sources.s3.amazonaws.com/kz-emer-ru/rss.xml
+Kenya:
+  Authority:
+    Kenya - CAP Kenya Meteorological Department - English: https://cap-sources.s3.amazonaws.com/ke-kmd-en/rss.xml
+    Kenya - CAP Idara ya Hali ya Hewa ya Kenya - Kiswahili: https://cap-sources.s3.amazonaws.com/ke-kmd-sw/rss.xml
+    Kenya - CAP National Disaster Operation Centre - English: https://cap-sources.s3.amazonaws.com/ke-ndoc-en/rss.xml
+    Kenya - CAP Kituo cha Kitaifa cha Operesheni ya Maafa - Kiswahili: https://cap-sources.s3.amazonaws.com/ke-ndoc-sw/rss.xml
+    Kenya - CAP National Drought Management Authority - English: https://cap-sources.s3.amazonaws.com/ke-ndma-en/rss.xml
+    Kenya - CAP Mamlaka ya Kitaifa ya Usimamizi wa Ukame - Kiswahili: https://cap-sources.s3.amazonaws.com/ke-ndma-sw/rss.xml
+Kiribati:
+  Authority:
+    Kiribati - CAP Kiribati Meteorological Service - English: https://cap-sources.s3.amazonaws.com/ki-met-en/rss.xml
+    Kiribati - CAP National Disaster Risk Management Office - English: https://cap-sources.s3.amazonaws.com/ki-ndrmo-en/rss.xml
+Korea (Democratic People's Republic of):
+  Authority:
+    Korea (Democratic People's Republic of) - CAP State Committee on Emergency and Disaster Management - English: https://cap-sources.s3.amazonaws.com/kp-scdem-en/rss.xml
+    Korea (Democratic People's Republic of) - CAP State Hydrometeorological Administration - English: https://cap-sources.s3.amazonaws.com/kp-sha-en/rss.xml
+Kosovo:
+  Authority:
+    Kosovo - CAP Hydrometeorological Institute - English: https://cap-sources.s3.amazonaws.com/ko-ihmk-en/rss.xml
+Kuwait:
+  Authority:
+    Kuwait - CAP لإدارة العامة للدفاع المدني الكويت - العربية: https://cap-sources.s3.amazonaws.com/kw-cd-ar/rss.xml
+    Kuwait - CAP General Civil Defense Department - English: https://cap-sources.s3.amazonaws.com/kw-cd-en/rss.xml
+Kyrgyzstan:
+  Authority:
+    Kyrgyzstan - CAP Ministry of Emergency Situations - English: https://cap-sources.s3.amazonaws.com/kg-mes-en/rss.xml
+    Kyrgyzstan - CAP министерство чрезвычайных ситуаций - Русский: https://cap-sources.s3.amazonaws.com/kg-mes-ru/rss.xml
+Lao People’s Democratic Republic:
+  Authority:
+    Lao People’s Democratic Republic - CAP Department of Meteorology and Hydrology - English: https://cap-sources.s3.amazonaws.com/la-dmh-en/rss.xml
+    Lao People’s Democratic Republic - CAP National Disaster Management Office - English: https://cap-sources.s3.amazonaws.com/la-ndmo-en/rss.xml
+Latvia:
+  Authority:
+    Latvia - CAP State Fire And Rescue Service - English: https://cap-sources.s3.amazonaws.com/lv-vugd-en/rss.xml
+    Latvia - CAP Государственная Пожарно-Спасательная Служба - Русский: https://cap-sources.s3.amazonaws.com/lv-vugd-ru/rss.xml
+Lebanon:
+  Authority:
+    Lebanon - CAP للمديرية العامة للدفاع المدني - العربية: https://cap-sources.s3.amazonaws.com/lb-cd-ar/rss.xml
+    Lebanon - CAP Directorate General for Civil Defense - English: https://cap-sources.s3.amazonaws.com/lb-cd-en/rss.xml
+    Lebanon - CAP دائرة الأرصاد الجوية اللبنانية - العربية: https://cap-sources.s3.amazonaws.com/lb-meteo-ar/rss.xml
+    Lebanon - CAP Lebanese Meteorological Department - English: https://cap-sources.s3.amazonaws.com/lb-meteo-en/rss.xml
+Lesotho:
+  Authority:
+    Lesotho - CAP Lesotho Disaster Management Authority - English: https://cap-sources.s3.amazonaws.com/ls-dma-en/rss.xml
+    Lesotho - CAP Lefapha la Thibelo le Taolo ea Likoluoa - st: https://cap-sources.s3.amazonaws.com/ls-dma-st/rss.xml
+    Lesotho - CAP Lesotho Meteorological Services - English: https://cap-sources.s3.amazonaws.com/ls-lms-en/rss.xml
+    Lesotho - CAP Litšebeletso tsa Boemo ba Leholimo tsa Lesotho - st: https://cap-sources.s3.amazonaws.com/ls-lms-st/rss.xml
+Liberia:
+  Authority:
+    Liberia - CAP Liberia Telecommunications Authority - English: https://cap-sources.s3.amazonaws.com/lr-lta-en/rss.xml
+    Liberia - CAP Liberia Meteorological and Hydrological Services - English: https://cap-sources.s3.amazonaws.com/lr-mhs-en/rss.xml
+    Liberia - CAP National Disaster Management Agency - English: https://cap-sources.s3.amazonaws.com/lr-ndma-en/rss.xml
+Libya:
+  Authority:
+    Libya - CAP وزارة النقل الليبية - العربية: https://cap-sources.s3.amazonaws.com/ly-mot-ar/rss.xml
+    Libya - CAP Ministry of Transportation - English: https://cap-sources.s3.amazonaws.com/ly-mot-en/rss.xml
+    Libya - CAP المركز الوطني للأرصاد الجوية - العربية: https://cap-sources.s3.amazonaws.com/ly-nmc-ar/rss.xml
+    Libya - CAP National Meteorological Centre - English: https://cap-sources.s3.amazonaws.com/ly-nmc-en/rss.xml
+    Libya - CAP هيئة السلامة الوطنية‎ - العربية: https://cap-sources.s3.amazonaws.com/ly-nsa-ar/rss.xml
+    Libya - CAP National Safety Authority - English: https://cap-sources.s3.amazonaws.com/ly-nsa-en/rss.xml
+Liechtenstein:
+  Authority:
+    Liechtenstein - CAP Civil Protection - English: https://cap-sources.s3.amazonaws.com/li-abs-en/rss.xml
+Lithuania:
+  Authority:
+    Lithuania - CAP Fire and Rescue Department - English: https://cap-sources.s3.amazonaws.com/lt-frd-en/rss.xml
+    Lithuania - CAP Пожарно-спасательный отдел - Русский: https://cap-sources.s3.amazonaws.com/lt-frd-ru/rss.xml
+Luxembourg:
+  Authority:
+    Luxembourg - CAP High Commission for National Protection - English: https://cap-sources.s3.amazonaws.com/lu-hcpn-en/rss.xml
+    Luxembourg - CAP Haut-commissariat à la Protection nationale - Français: https://cap-sources.s3.amazonaws.com/lu-hcpn-fr/rss.xml
+Macao:
+  Authority:
+    Macao - CAP 民防業務中心 - zh: https://cap-sources.s3.amazonaws.com/mo-copc-zh/rss.xml
+    Macao - CAP Civil Protection Operational Center - English: https://cap-sources.s3.amazonaws.com/mo-copc-en/rss.xml
+    Macao - CAP Centro Operacional de Protecção Civil - Português: https://cap-sources.s3.amazonaws.com/mo-copc-pt/rss.xml
+Madagascar:
+  Authority:
+    Madagascar - CAP National Office for Risk and Disaster Management - English: https://cap-sources.s3.amazonaws.com/mg-bngrc-en/rss.xml
+    Madagascar - CAP Bureau National de Gestion des Risques et des Catastrophes - Français: https://cap-sources.s3.amazonaws.com/mg-bngrc-fr/rss.xml
+    Madagascar - CAP Operational Meteorology - English: https://cap-sources.s3.amazonaws.com/mg-meteo-en/rss.xml
+    Madagascar - CAP Météorologie opérationnelle - Français: https://cap-sources.s3.amazonaws.com/mg-meteo-fr/rss.xml
+Malawi:
+  Authority:
+    Malawi - CAP Department of Disaster Management Affairs - English: https://cap-sources.s3.amazonaws.com/mw-dodma-en/rss.xml
+Malaysia:
+  Authority:
+    Malaysia - CAP Meteorological Department - English: https://cap-sources.s3.amazonaws.com/my-met-en/rss.xml
+    Malaysia - CAP Jabatan Meteorologi - ms: https://cap-sources.s3.amazonaws.com/my-met-ms/rss.xml
+    Malaysia - CAP กรมอุตุนิยมวิทยา - th: https://cap-sources.s3.amazonaws.com/my-met-th/rss.xml
+    Malaysia - CAP National Disaster Management Agency - English: https://cap-sources.s3.amazonaws.com/my-ndcc-en/rss.xml
+    Malaysia - CAP Agensi Pengurusan Bencana Kebangsaan - ms: https://cap-sources.s3.amazonaws.com/my-ndcc-ms/rss.xml
+    Malaysia - CAP สำนักงานจัดการภัยพิบัติแห่งชาติ - th: https://cap-sources.s3.amazonaws.com/my-ndcc-th/rss.xml
+Maldives:
+  Authority:
+    Maldives - CAP National Disaster Management Centre - English: https://cap-sources.s3.amazonaws.com/mv-ndmc-en/rss.xml
+Mali:
+  Authority:
+    Mali - CAP Directorate General of Civil Protection - English: https://cap-sources.s3.amazonaws.com/ml-dgpc-en/rss.xml
+    Mali - CAP Direction Générale de la Protection Civile - Français: https://cap-sources.s3.amazonaws.com/ml-dgpc-fr/rss.xml
+    Mali - CAP National Directorate of Hydraulics - English: https://cap-sources.s3.amazonaws.com/ml-dnh-en/rss.xml
+    Mali - CAP Direction Nationale de l'Hydraulique - Français: https://cap-sources.s3.amazonaws.com/ml-dnh-fr/rss.xml
+Malta:
+  Authority:
+    Malta - CAP Civil Protection Department - English: https://cap-sources.s3.amazonaws.com/mt-cpd-en/rss.xml
+    Malta - CAP Dipartiment tal-Protezzjoni Ċivili - Italiano: https://cap-sources.s3.amazonaws.com/mt-cpd-it/rss.xml
+Marshall Islands:
+  Authority:
+    Marshall Islands - CAP National Disaster Management Office - English: https://cap-sources.s3.amazonaws.com/mh-ndmo-en/rss.xml
+Mauritania:
+  Authority:
+    Mauritania - CAP المندوبية العامة للأمن المدني وتسيير الأزمات - العربية: https://cap-sources.s3.amazonaws.com/mr-dgscgc-ar/rss.xml
+    Mauritania - CAP General Delegation for Civil Security and Crisis Management - English: https://cap-sources.s3.amazonaws.com/mr-dgscgc-en/rss.xml
+    Mauritania - CAP Délégation Générale à la Sécurité Civile et à la Gestion des Crises - Français: https://cap-sources.s3.amazonaws.com/mr-dgscgc-fr/rss.xml
+    Mauritania - CAP خفر السواحل الموريتاني - العربية: https://cap-sources.s3.amazonaws.com/mr-gcm-ar/rss.xml
+    Mauritania - CAP Mauritanian Coast Guard - English: https://cap-sources.s3.amazonaws.com/mr-gcm-en/rss.xml
+    Mauritania - CAP Garde Côtière Mauritanienne - Français: https://cap-sources.s3.amazonaws.com/mr-gcm-fr/rss.xml
+    Mauritania - CAP المكتب الوطني موريتانيا للأرصاد الجوية - العربية: https://cap-sources.s3.amazonaws.com/mr-onm-ar/rss.xml
+    Mauritania - CAP National Office of Meteorology - English: https://cap-sources.s3.amazonaws.com/mr-onm-en/rss.xml
+    Mauritania - CAP Office National de Météorologie - Français: https://cap-sources.s3.amazonaws.com/mr-onm-fr/rss.xml
+Mauritius:
+  Authority:
+    Mauritius - CAP Mauritius Meteorological Services - English: https://cap-sources.s3.amazonaws.com/mu-mms-en/rss.xml
+    Mauritius - CAP National Disaster Risk Reduction and Management Centre - English: https://cap-sources.s3.amazonaws.com/mu-ndrrmc-en/rss.xml
+Mexico:
+  Authority:
+    Mexico - CAP National Center for Prevention of Disasters - English: https://cap-sources.s3.amazonaws.com/mx-cenapred-en/rss.xml
+    Mexico - CAP Centro Nacional de Prevención de Desastres - Español: https://cap-sources.s3.amazonaws.com/mx-cenapred-es/rss.xml
+Micronesia (Federated States of):
+  Authority:
+    Micronesia (Federated States of) - CAP Department of Environment, Climate Change and Emergency Management - English: https://cap-sources.s3.amazonaws.com/fm-decem-en/rss.xml
+    Micronesia (Federated States of) - CAP Government of the Federated States of Micronesia - English: https://cap-sources.s3.amazonaws.com/fm-gov-en/rss.xml
+Moldova:
+  Authority:
+    Moldova - CAP Civil Protection and Emergency Situations Service - English: https://cap-sources.s3.amazonaws.com/md-dse-en/rss.xml
+Monaco:
+  Authority:
+    Monaco - CAP Fire and Emergency Services - English: https://cap-sources.s3.amazonaws.com/mc-fes-en/rss.xml
+    Monaco - CAP Corps des Sapeurs-pompiers - Français: https://cap-sources.s3.amazonaws.com/mc-fes-fr/rss.xml
+    Monaco - CAP Monaco Alert System - English: https://cap-sources.s3.amazonaws.com/mc-gouv-en/rss.xml
+    Monaco - CAP Service d'Alerte Monaco - Français: https://cap-sources.s3.amazonaws.com/mc-gouv-fr/rss.xml
+Mongolia:
+  Authority:
+    Mongolia - CAP National Agency for Meteorology and Environmental Monitoring - English: https://cap-sources.s3.amazonaws.com/mn-namem-en/rss.xml
+    Mongolia - CAP Цаг уур, орчны шинжилгээний газар - mn: https://cap-sources.s3.amazonaws.com/mn-namem-mn/rss.xml
+    Mongolia - CAP National Emergency Management Agency - English: https://cap-sources.s3.amazonaws.com/mn-nema-en/rss.xml
+    Mongolia - CAP Онцгой байдлын ерөнхий газар - mn: https://cap-sources.s3.amazonaws.com/mn-nema-mn/rss.xml
+Montenegro:
+  Authority:
+    Montenegro - CAP Emergency Management Directorate - English: https://cap-sources.s3.amazonaws.com/me-emd-en/rss.xml
+Montserrat:
+  Authority:
+    Montserrat - CAP Disaster Management Coordination Agency - English: https://cap-sources.s3.amazonaws.com/ms-dmca-en/rss.xml
+Morocco:
+  Authority:
+    Morocco - CAP المديرية العامة للأرصاد الجوية - العربية: https://cap-sources.s3.amazonaws.com/ma-dgm-ar/rss.xml
+    Morocco - CAP Directorate General of Meteorology - English: https://cap-sources.s3.amazonaws.com/ma-dgm-en/rss.xml
+    Morocco - CAP Direction Générale de la Météorologie - Français: https://cap-sources.s3.amazonaws.com/ma-dgm-fr/rss.xml
+    Morocco - CAP قسم إدارة المخاطر الطبيعية - العربية: https://cap-sources.s3.amazonaws.com/ma-dgrn-ar/rss.xml
+    Morocco - CAP Natural Disasters Risk Management Directorate - English: https://cap-sources.s3.amazonaws.com/ma-dgrn-en/rss.xml
+    Morocco - CAP Direction de la Gestion des Risques Naturels - Français: https://cap-sources.s3.amazonaws.com/ma-dgrn-fr/rss.xml
+Mozambique:
+  Authority:
+    Mozambique - CAP National Directorate of Water - English: https://cap-sources.s3.amazonaws.com/mz-dna-en/rss.xml
+    Mozambique - CAP Direcccion Nacional de Aqua - Português: https://cap-sources.s3.amazonaws.com/mz-dna-pt/rss.xml
+    Mozambique - CAP National Institute of Disaster Management - English: https://cap-sources.s3.amazonaws.com/mz-ingc-en/rss.xml
+    Mozambique - CAP Instituto Nacional de Gestão de Calamidades - Português: https://cap-sources.s3.amazonaws.com/mz-ingc-pt/rss.xml
+    Mozambique - CAP National Institute of Meteorology - English: https://cap-sources.s3.amazonaws.com/mz-inam-en/rss.xml
+    Mozambique - CAP Instituto Nacional de Metereologia - Português: https://cap-sources.s3.amazonaws.com/mz-inam-pt/rss.xml
+Myanmar:
+  Authority:
+    Myanmar - CAP Department of Disaster Management - English: https://cap-sources.s3.amazonaws.com/mm-ddm-en/rss.xml
+    Myanmar - CAP กรมการจัดการภัยพิบัติ - th: https://cap-sources.s3.amazonaws.com/mm-ddm-th/rss.xml
+    Myanmar - CAP Department of Meteorology and Hydrology - English: https://cap-sources.s3.amazonaws.com/mm-dmh-en/rss.xml
+    Myanmar - CAP ภาควิชาอุตุนิยมวิทยาและอุทกวิทยา - th: https://cap-sources.s3.amazonaws.com/mm-dmh-th/rss.xml
+Namibia:
+  Authority:
+    Namibia - CAP Directorate Disaster Risk Management - English: https://cap-sources.s3.amazonaws.com/na-ddrm-en/rss.xml
+    Namibia - CAP Namibia Meteorological Service - English: https://cap-sources.s3.amazonaws.com/na-meteo-en/rss.xml
+Nauru:
+  Authority:
+    Nauru - CAP National Disaster Risk Management - English: https://cap-sources.s3.amazonaws.com/nr-ndrm-en/rss.xml
+    Nauru - CAP National Emergency Services - English: https://cap-sources.s3.amazonaws.com/nr-nes-en/rss.xml
+Nepal:
+  Authority:
+    Nepal - CAP Department of Hydrology and Meteorology - English: https://cap-sources.s3.amazonaws.com/np-dhm-en/rss.xml
+    Nepal - CAP र्ष जल तथा मौसम विज्ञान विभागले - ne: https://cap-sources.s3.amazonaws.com/np-dhm-ne/rss.xml
+    Nepal - CAP محکمہ ہائیڈرولوجی اینڈ میٹرولوجی - ur: https://cap-sources.s3.amazonaws.com/np-dhm-ur/rss.xml
+    Nepal - CAP National Disaster Risk Reduction and Management Authority - English: https://cap-sources.s3.amazonaws.com/np-ndrrma-en/rss.xml
+    Nepal - CAP राष्ट्रिय आपदा जोखिम न्यूनीकरण र व्यवस्थापन प्राधिकरण - ne: https://cap-sources.s3.amazonaws.com/np-ndrrma-ne/rss.xml
+    Nepal - CAP نیشنل ڈیزاسٹر رسک ریڈکشن اینڈ مینجمنٹ اتھارٹی - ur: https://cap-sources.s3.amazonaws.com/np-ndrrma-ur/rss.xml
+Netherlands:
+  Authority:
+    Netherlands - CAP Nationaal CrisisCentrum - Nederlands: https://cap-sources.s3.amazonaws.com/nl-ncc-nl/rss.xml
+    Netherlands - CAP National Crisis Centre - English: https://cap-sources.s3.amazonaws.com/nl-ncc-en/rss.xml
+New Caledonia:
+  Authority:
+    New Caledonia - CAP Civil Security - English: https://cap-sources.s3.amazonaws.com/nc-sc-en/rss.xml
+    New Caledonia - CAP Sécurité Civile - Français: https://cap-sources.s3.amazonaws.com/nc-sc-fr/rss.xml
+New Zealand:
+  Authority:
+    New Zealand - CAP National Emergency Management Agency - English: https://cap-sources.s3.amazonaws.com/nz-nema-en/rss.xml
+Nicaragua:
+  Authority:
+    Nicaragua - CAP Directorate General for Meterology - English: https://cap-sources.s3.amazonaws.com/ni-servmet-en/rss.xml
+    Nicaragua - CAP Dirección General de Meteorología - Español: https://cap-sources.s3.amazonaws.com/ni-servmet-es/rss.xml
+    Nicaragua - CAP Directorate General for Water Resources - English: https://cap-sources.s3.amazonaws.com/ni-ineter-en/rss.xml
+    Nicaragua - CAP Dirección General de Recursos Hídricos - Español: https://cap-sources.s3.amazonaws.com/ni-ineter-es/rss.xml
+    Nicaragua - CAP National System for the Prevention, Mitigation and Attention of Disasters - English: https://cap-sources.s3.amazonaws.com/ni-sinapred-en/rss.xml
+    Nicaragua - CAP Sistema Nacional para la Prevención, Mitigación y Atención de Desastres - Español: https://cap-sources.s3.amazonaws.com/ni-sinapred-es/rss.xml
+Niger:
+  Authority:
+    Niger - CAP Directorate General of Civil Protection - English: https://cap-sources.s3.amazonaws.com/ne-dgpc-en/rss.xml
+    Niger - CAP Direction Générale de la Protection Civile - Français: https://cap-sources.s3.amazonaws.com/ne-dgpc-fr/rss.xml
+    Niger - CAP Darakta Janar na Kare Hakkokin Bil Adama - Hausa: https://cap-sources.s3.amazonaws.com/ne-dgpc-ha/rss.xml
+    Niger - CAP Directorate of National Meteorology - English: https://cap-sources.s3.amazonaws.com/ne-meteo-en/rss.xml
+    Niger - CAP Direction de la Météorologie Nationale - Français: https://cap-sources.s3.amazonaws.com/ne-meteo-fr/rss.xml
+    Niger - CAP Hukumar Kula da Yanayin Kasa ta Kasa - Hausa: https://cap-sources.s3.amazonaws.com/ne-meteo-ha/rss.xml
+    Niger - CAP Ministry of Water and Sanitation - English: https://cap-sources.s3.amazonaws.com/ne-mha-en/rss.xml
+    Niger - CAP Ministère de l'Hydraulique et de l'Assainissement - Français: https://cap-sources.s3.amazonaws.com/ne-mha-fr/rss.xml
+    Niger - CAP Ma'aikatar ruwa da tsaftar muhalli - Hausa: https://cap-sources.s3.amazonaws.com/ne-mha-ha/rss.xml
+Nigeria:
+  Authority:
+    Nigeria - CAP National Emergency Management Agency - English: https://cap-sources.s3.amazonaws.com/ng-nema-en/rss.xml
+    Nigeria - CAP Hukumar Ba da Agajin Gaggawa ta Kasa - Hausa: https://cap-sources.s3.amazonaws.com/ng-nema-ha/rss.xml
+    Nigeria - CAP Nigeria Hydrological Services Agency - English: https://cap-sources.s3.amazonaws.com/ng-nihsa-en/rss.xml
+    Nigeria - CAP Hukumar Kula da Ruwa ta Najeriya - Hausa: https://cap-sources.s3.amazonaws.com/ng-nihsa-ha/rss.xml
+    Nigeria - CAP Nigerian Meteorological Agency - English: https://cap-sources.s3.amazonaws.com/ng-nimet-en/rss.xml
+    Nigeria - CAP Hukumar Kula da Yanayi ta Najeriya - Hausa: https://cap-sources.s3.amazonaws.com/ng-nimet-ha/rss.xml
+    Nigeria - CAP Nigeria Security and Civil Defence Corps - English: https://cap-sources.s3.amazonaws.com/ng-nscdc-en/rss.xml
+    Nigeria - CAP Jami'an Tsaron Najeriya da Civil Defence - Hausa: https://cap-sources.s3.amazonaws.com/ng-nscdc-ha/rss.xml
+Niue:
+  Authority:
+    Niue - CAP Niue Meteorological Service - English: https://cap-sources.s3.amazonaws.com/nu-met-en/rss.xml
+    Niue - CAP Niue Police - English: https://cap-sources.s3.amazonaws.com/nu-police-en/rss.xml
+North Macedonia:
+  Authority:
+    North Macedonia - CAP Crisis Management Center - English: https://cap-sources.s3.amazonaws.com/mk-cmc-en/rss.xml
+Norway:
+  Authority:
+    Norway - CAP Norwegian Directorate for Civil Protection - English: https://cap-sources.s3.amazonaws.com/no-dsb-en/rss.xml
+Oman:
+  Authority:
+    Oman - CAP المديرية العامة للأرصاد الجوية - العربية: https://cap-sources.s3.amazonaws.com/om-met-ar/rss.xml
+    Oman - CAP Directorate General of Meteorology - English: https://cap-sources.s3.amazonaws.com/om-met-en/rss.xml
+    Oman - CAP المركز الوطني لإدارة الطوارئ - العربية: https://cap-sources.s3.amazonaws.com/om-nemc-ar/rss.xml
+    Oman - CAP National Emergency Management Center - English: https://cap-sources.s3.amazonaws.com/om-nemc-en/rss.xml
+Pakistan:
+  Authority:
+    Pakistan - CAP National Disaster Management Authority - English: https://cap-sources.s3.amazonaws.com/pk-ndma-en/rss.xml
+    Pakistan - CAP نیشنل ڈیزاسٹر مینجمنٹ اتھارٹی - ur: https://cap-sources.s3.amazonaws.com/pk-ndma-ur/rss.xml
+    Pakistan - CAP Pakistan Meteorological Department - English: https://cap-sources.s3.amazonaws.com/pk-pmd-en/rss.xml
+    Pakistan - CAP محکمہ موسمیات - ur: https://cap-sources.s3.amazonaws.com/pk-pmd-ur/rss.xml
+Palau:
+  Authority:
+    Palau - CAP National Emergency Management Office - English: https://cap-sources.s3.amazonaws.com/pw-nemo-en/rss.xml
+Palestine, State of:
+  Authority:
+    Palestine, State of - CAP الدفاع المدني الفلسطيني - العربية: https://cap-sources.s3.amazonaws.com/ps-pcd-ar/rss.xml
+    Palestine, State of - CAP Palestinian Civil Defense - English: https://cap-sources.s3.amazonaws.com/ps-pcd-en/rss.xml
+    Palestine, State of - CAP الارصاد الجوية الفلسطينية - العربية: https://cap-sources.s3.amazonaws.com/ps-pmd-ar/rss.xml
+    Palestine, State of - CAP Palestine Meteorological Department - English: https://cap-sources.s3.amazonaws.com/ps-pmd-en/rss.xml
+Panama:
+  Authority:
+    Panama - CAP Institute of Meteorology and Hydrology of Panama - English: https://cap-sources.s3.amazonaws.com/pa-imhpa-en/rss.xml
+    Panama - CAP Instituto de Meteorología e Hidrología de Panamá - Español: https://cap-sources.s3.amazonaws.com/pa-imhpa-es/rss.xml
+    Panama - CAP National System of Civil Protection - English: https://cap-sources.s3.amazonaws.com/pa-sinaproc-en/rss.xml
+    Panama - CAP Sistema Nacional de Proteccion Civil - Español: https://cap-sources.s3.amazonaws.com/pa-sinaproc-es/rss.xml
+Papua New Guinea:
+  Authority:
+    Papua New Guinea - CAP National Disaster Centre - English: https://cap-sources.s3.amazonaws.com/pg-pngndc-en/rss.xml
+Paraguay:
+  Authority:
+    Paraguay - CAP Directorate of Meteorology and Hydrology - English: https://cap-sources.s3.amazonaws.com/py-dmh-en/rss.xml
+    Paraguay - CAP Dirección de Meteorología e Hidrología - Español: https://cap-sources.s3.amazonaws.com/py-dmh-es/rss.xml
+    Paraguay - CAP Secretary of National Emergency (SEN) - English: https://cap-sources.s3.amazonaws.com/py-sen-en/rss.xml
+    Paraguay - CAP Secretaria de Emergencia Nacional (SEN) - Español: https://cap-sources.s3.amazonaws.com/py-sen-es/rss.xml
+Peru:
+  Authority:
+    Peru - CAP National Meteorological and Hydrological Service (SENAMHI) - English: https://cap-sources.s3.amazonaws.com/pe-senamhi-en/rss.xml
+    Peru - CAP Servicio Nacional de Meteorología e Hidrología (SENAMHI) - Español: https://cap-sources.s3.amazonaws.com/pe-senamhi-es/rss.xml
+Philippines:
+  Authority:
+    Philippines - CAP National Disaster Risk Reduction and Management Council - English: https://cap-sources.s3.amazonaws.com/ph-ndrrmc-en/rss.xml
+Poland:
+  Authority:
+    Poland - CAP Government Centre for Security - English: https://cap-sources.s3.amazonaws.com/pl-rcb-en/rss.xml
+Portugal:
+  Authority:
+    Portugal - CAP National Authority for Civil Protection - English: https://cap-sources.s3.amazonaws.com/pt-prociv-en/rss.xml
+    Portugal - CAP Autoridade Nacional de Protecção Civil - Português: https://cap-sources.s3.amazonaws.com/pt-prociv-pt/rss.xml
+Qatar:
+  Authority:
+    Qatar - CAP الهيئة العامة للطيران المدني - العربية: https://cap-sources.s3.amazonaws.com/qa-caa-ar/rss.xml
+    Qatar - CAP Civil Aviation Authority - English: https://cap-sources.s3.amazonaws.com/qa-caa-en/rss.xml
+    Qatar - CAP المديرية العامة للدفاع المدني - العربية: https://cap-sources.s3.amazonaws.com/qa-gdcd-ar/rss.xml
+    Qatar - CAP General Directorate of Civil Defence - English: https://cap-sources.s3.amazonaws.com/qa-gdcd-en/rss.xml
+Romania:
+  Authority:
+    Romania - CAP Romanian General Inspectorate for Emergency Situations - English: https://cap-sources.s3.amazonaws.com/ro-igsu-en/rss.xml
+Russian Federation:
+  Authority:
+    Russian Federation - CAP Russian Emergency Situations Ministry - English: https://cap-sources.s3.amazonaws.com/ru-mchs-en/rss.xml
+    Russian Federation - CAP министерство по чрезвычайным ситуациям - Русский: https://cap-sources.s3.amazonaws.com/ru-mchs-ru/rss.xml
+Rwanda:
+  Authority:
+    Rwanda - CAP Ministry in Charge of Emergency Management - English: https://cap-sources.s3.amazonaws.com/rw-minema-en/rss.xml
+    Rwanda - CAP Rwanda Meteorology Agency - English: https://cap-sources.s3.amazonaws.com/rw-meteo-en/rss.xml
+Saint Kitts and Nevis:
+  Authority:
+    Saint Kitts and Nevis - CAP National Emergency Management Agency - English: https://cap-sources.s3.amazonaws.com/kn-nema-en/rss.xml
+Saint Lucia:
+  Authority:
+    Saint Lucia - CAP Saint Lucia Meteorological Services - English: https://cap-sources.s3.amazonaws.com/lc-met-en/rss.xml
+    Saint Lucia - CAP National Emergency Management Organization (NEMO) - English: https://cap-sources.s3.amazonaws.com/lc-nemo-en/rss.xml
+Saint Vincent and the Grenadines:
+  Authority:
+    Saint Vincent and the Grenadines - CAP National Emergency Management Office (NEMO) - English: https://cap-sources.s3.amazonaws.com/vc-nemo-en/rss.xml
+Samoa:
+  Authority:
+    Samoa - CAP Disaster Management Office - English: https://cap-sources.s3.amazonaws.com/ws-dmo-en/rss.xml
+San Marino:
+  Authority:
+    San Marino - CAP Civil Police Corps - English: https://cap-sources.s3.amazonaws.com/sm-cp-en/rss.xml
+    San Marino - CAP Corpo di Polizia Civile - Italiano: https://cap-sources.s3.amazonaws.com/sm-cp-it/rss.xml
+Sao Tome and Principe:
+  Authority:
+    Sao Tome and Principe - CAP National Council for Disaster Prevention and Response - English: https://cap-sources.s3.amazonaws.com/st-conprec-en/rss.xml
+    Sao Tome and Principe - CAP Conselho Nacional de Prevenção e Resposta a Catástrofes - Português: https://cap-sources.s3.amazonaws.com/st-conprec-pt/rss.xml
+    Sao Tome and Principe - CAP National Institute of Meteorology - English: https://cap-sources.s3.amazonaws.com/st-meteo-en/rss.xml
+    Sao Tome and Principe - CAP Instituto Nacional de Meteorologia - Português: https://cap-sources.s3.amazonaws.com/st-meteo-pt/rss.xml
+Saudi Arabia:
+  Authority:
+    Saudi Arabia - CAP وزارة الحج والعمرة - العربية: https://cap-sources.s3.amazonaws.com/sa-haj-ar/rss.xml
+    Saudi Arabia - CAP Ministry of Hajj and Umrah - English: https://cap-sources.s3.amazonaws.com/sa-haj-en/rss.xml
+    Saudi Arabia - CAP المملكة العربية السعودية رئاسة الأرصاد والبيئة - العربية: https://cap-sources.s3.amazonaws.com/sa-pme-ar/rss.xml
+    Saudi Arabia - CAP Presidency of Meteorology and Environment (PME) - English: https://cap-sources.s3.amazonaws.com/sa-pme-en/rss.xml
+    Saudi Arabia - CAP الموقع الرسمي لهيئة الإذاعة والتلفزيون السعودية - العربية: https://cap-sources.s3.amazonaws.com/sa-sba-ar/rss.xml
+    Saudi Arabia - CAP Saudi Broadcasting Authority - English: https://cap-sources.s3.amazonaws.com/sa-sba-en/rss.xml
+Senegal:
+  Authority:
+    Senegal - CAP Directorate of Civil Protection - English: https://cap-sources.s3.amazonaws.com/sn-dpc-en/rss.xml
+    Senegal - CAP Direction de la Protection Civile - Français: https://cap-sources.s3.amazonaws.com/sn-dpc-fr/rss.xml
+    Senegal - CAP Directorate of Rural Hydraulics and National Hydrographic Network - English: https://cap-sources.s3.amazonaws.com/sn-mha-en/rss.xml
+    Senegal - CAP Direction de l'Hydraulique Rurale et du Réseau Hydrographique National - Français: https://cap-sources.s3.amazonaws.com/sn-mha-fr/rss.xml
+    Senegal - CAP National Agency of Civil Aviation and Meteorology - English: https://cap-sources.s3.amazonaws.com/sn-anacim-en/rss.xml
+    Senegal - CAP Agence Nationale de l'Aviation Civile et de la Météorologie - Français: https://cap-sources.s3.amazonaws.com/sn-anacim-fr/rss.xml
+Serbia:
+  Authority:
+    Serbia - CAP Sector for Emergency Management - English: https://cap-sources.s3.amazonaws.com/rs-sem-en/rss.xml
+Seychelles:
+  Authority:
+    Seychelles - CAP Division of Risk and Disaster Management - English: https://cap-sources.s3.amazonaws.com/sc-drdm-en/rss.xml
+Sierra Leone:
+  Authority:
+    Sierra Leone - CAP Directorate Disaster Management - English: https://cap-sources.s3.amazonaws.com/sl-ddm-en/rss.xml
+    Sierra Leone - CAP Sierra Leone Meteorological Agency - English: https://cap-sources.s3.amazonaws.com/sl-slmet-en/rss.xml
+Singapore:
+  Authority:
+    Singapore - CAP 內政部 - zh: https://cap-sources.s3.amazonaws.com/sg-mha-zh/rss.xml
+    Singapore - CAP Ministry of Home Affairs - English: https://cap-sources.s3.amazonaws.com/sg-mha-en/rss.xml
+    Singapore - CAP Kementerian Hal Ehwal Dalam Negeri - ms: https://cap-sources.s3.amazonaws.com/sg-mha-ms/rss.xml
+    Singapore - CAP உள்துறை அமைச்சகம் - ta: https://cap-sources.s3.amazonaws.com/sg-mha-ta/rss.xml
+    Singapore - CAP 国家水务局 - zh: https://cap-sources.s3.amazonaws.com/sg-pub-zh/rss.xml
+    Singapore - CAP National Water Agency - English: https://cap-sources.s3.amazonaws.com/sg-pub-en/rss.xml
+    Singapore - CAP Agensi Air Negara - ms: https://cap-sources.s3.amazonaws.com/sg-pub-ms/rss.xml
+    Singapore - CAP தேசிய நீர் நிறுவனம் - ta: https://cap-sources.s3.amazonaws.com/sg-pub-ta/rss.xml
+Sint Maarten (Dutch part):
+  Authority:
+    Sint Maarten (Dutch part) - CAP Waarschuwing Sint Maarten - Nederlands: https://cap-sources.s3.amazonaws.com/sx-gov-nl/rss.xml
+    Sint Maarten (Dutch part) - CAP Alerts Sint Maarten - English: https://cap-sources.s3.amazonaws.com/sx-gov-en/rss.xml
+    Sint Maarten (Dutch part) - CAP Alertes Sint Maarten - Français: https://cap-sources.s3.amazonaws.com/sx-gov-fr/rss.xml
+    Sint Maarten (Dutch part) - CAP Alertas Sint Maarten - Español: https://cap-sources.s3.amazonaws.com/sx-gov-es/rss.xml
+    Sint Maarten (Dutch part) - CAP Meteorologische Dienst - Nederlands: https://cap-sources.s3.amazonaws.com/sx-mds-nl/rss.xml
+    Sint Maarten (Dutch part) - CAP Met Office - English: https://cap-sources.s3.amazonaws.com/sx-mds-en/rss.xml
+    Sint Maarten (Dutch part) - CAP Bureau météorologique - Français: https://cap-sources.s3.amazonaws.com/sx-mds-fr/rss.xml
+    Sint Maarten (Dutch part) - CAP Oficina Meteorológica - Español: https://cap-sources.s3.amazonaws.com/sx-mds-es/rss.xml
+    Sint Maarten (Dutch part) - CAP Bureau van rampenbeheer - Nederlands: https://cap-sources.s3.amazonaws.com/sx-odm-nl/rss.xml
+    Sint Maarten (Dutch part) - CAP Office of Disaster Management - English: https://cap-sources.s3.amazonaws.com/sx-odm-en/rss.xml
+    Sint Maarten (Dutch part) - CAP Bureau de gestion des catastrophes - Français: https://cap-sources.s3.amazonaws.com/sx-odm-fr/rss.xml
+    Sint Maarten (Dutch part) - CAP Oficina de Manejo de Desastres - Español: https://cap-sources.s3.amazonaws.com/sx-odm-es/rss.xml
+Slovakia:
+  Authority:
+    Slovakia - CAP Ministry of Interior Section on Crisis Management and Civil Protection - English: https://cap-sources.s3.amazonaws.com/sk-cp-en/rss.xml
+Slovenia:
+  Authority:
+    Slovenia - CAP Civil Protection and Disaster Relief Administration - English: https://cap-sources.s3.amazonaws.com/si-urszr-en/rss.xml
+Solomon Islands:
+  Authority:
+    Solomon Islands - CAP Meteorological Service - English: https://cap-sources.s3.amazonaws.com/sb-met-en/rss.xml
+    Solomon Islands - CAP National Disaster Management Office - English: https://cap-sources.s3.amazonaws.com/sb-ndmo-en/rss.xml
+Somalia:
+  Authority:
+    Somalia - CAP قسم الأرصاد الجوية المائية - العربية: https://cap-sources.s3.amazonaws.com/so-dhm-ar/rss.xml
+    Somalia - CAP Department of Hydrometeorology - English: https://cap-sources.s3.amazonaws.com/so-dhm-en/rss.xml
+    Somalia - CAP Waaxda Hydrometeorological - so: https://cap-sources.s3.amazonaws.com/so-dhm-so/rss.xml
+    Somalia - CAP وكالة الاتصالات الوطنية - العربية: https://cap-sources.s3.amazonaws.com/so-nca-ar/rss.xml
+    Somalia - CAP National Communications Authority - English: https://cap-sources.s3.amazonaws.com/so-nca-en/rss.xml
+    Somalia - CAP Hay'adda Isgaarsiinta Qaranka - so: https://cap-sources.s3.amazonaws.com/so-nca-so/rss.xml
+    Somalia - CAP الوكالة الصومالية لإدارة الكوارث - العربية: https://cap-sources.s3.amazonaws.com/so-sodma-ar/rss.xml
+    Somalia - CAP Somali Disaster Management Agency - English: https://cap-sources.s3.amazonaws.com/so-sodma-en/rss.xml
+    Somalia - CAP Hay’adda Maareynta Masiibooyinka Soomaaliyeed - so: https://cap-sources.s3.amazonaws.com/so-sodma-so/rss.xml
+South Africa:
+  Authority:
+    South Africa - CAP National Disaster Management Centre - English: https://cap-sources.s3.amazonaws.com/za-ndmc-en/rss.xml
+South Sudan:
+  Authority:
+    South Sudan - CAP Ministry of Humanitarian Affairs and Disaster Management - English: https://cap-sources.s3.amazonaws.com/ss-mhadm-en/rss.xml
+    South Sudan - CAP South Sudan Meteorological Department - English: https://cap-sources.s3.amazonaws.com/ss-ssmd-en/rss.xml
+Spain:
+  Authority:
+    Spain - CAP Directorate General of Civil Protection and Emergencies - English: https://cap-sources.s3.amazonaws.com/es-pce-en/rss.xml
+    Spain - CAP Dirección General de Protección Civil y Emergencias - Español: https://cap-sources.s3.amazonaws.com/es-pce-es/rss.xml
+Sri Lanka:
+  Authority:
+    Sri Lanka - CAP Department of Meteorology - English: https://cap-sources.s3.amazonaws.com/lk-meteo-en/rss.xml
+    Sri Lanka - CAP කාලගුණ විද්‍යා දෙපාර්තමේන්තුව - si: https://cap-sources.s3.amazonaws.com/lk-meteo-si/rss.xml
+    Sri Lanka - CAP வானிலை ஆய்வு துறை - ta: https://cap-sources.s3.amazonaws.com/lk-meteo-ta/rss.xml
+    Sri Lanka - CAP Disaster Management Centre - English: https://cap-sources.s3.amazonaws.com/lk-dmc-en/rss.xml
+    Sri Lanka - CAP ආපදා කළමනාකරණ මධ්‍යස්ථානය - si: https://cap-sources.s3.amazonaws.com/lk-dmc-si/rss.xml
+    Sri Lanka - CAP பேரிடர் மேலாண்மை மையம் - ta: https://cap-sources.s3.amazonaws.com/lk-dmc-ta/rss.xml
+Sudan:
+  Authority:
+    Sudan - CAP تنبيهات من حكومة السودان - العربية: https://cap-sources.s3.amazonaws.com/sd-gov-ar/rss.xml
+    Sudan - CAP Alerts from the Government of Sudan - English: https://cap-sources.s3.amazonaws.com/sd-gov-en/rss.xml
+    Sudan - CAP Sanarwa daga gwamnatin Sudan - Hausa: https://cap-sources.s3.amazonaws.com/sd-gov-ha/rss.xml
+    Sudan - CAP المجلس الوطني للدفاع المدني - العربية: https://cap-sources.s3.amazonaws.com/sd-nccd-ar/rss.xml
+    Sudan - CAP National Council for Civil Defence - English: https://cap-sources.s3.amazonaws.com/sd-nccd-en/rss.xml
+    Sudan - CAP Majalisar tsaron farar hula ta kasa - Hausa: https://cap-sources.s3.amazonaws.com/sd-nccd-ha/rss.xml
+    Sudan - CAP جهاز تنظيم الاتصالات والبريد - العربية: https://cap-sources.s3.amazonaws.com/sd-tpra-ar/rss.xml
+    Sudan - CAP Telecommunications and Post Regulatory Authority - English: https://cap-sources.s3.amazonaws.com/sd-tpra-en/rss.xml
+    Sudan - CAP Hukumar Kula da Sadarwa da Wasiƙa - Hausa: https://cap-sources.s3.amazonaws.com/sd-tpra-ha/rss.xml
+Suriname:
+  Authority:
+    Suriname - CAP Nationaal CoördinatieCentrum voor Rampenbestrijding (NCCR) - Nederlands: https://cap-sources.s3.amazonaws.com/sr-ncrr-nl/rss.xml
+    Suriname - CAP National Coordination Center For Disaster Relief (NCCR) - English: https://cap-sources.s3.amazonaws.com/sr-ncrr-en/rss.xml
+    Suriname - CAP Meteorologische Dienst Suriname - Nederlands: https://cap-sources.s3.amazonaws.com/sr-meteo-nl/rss.xml
+    Suriname - CAP Suriname Meteorological Service - English: https://cap-sources.s3.amazonaws.com/sr-meteo-en/rss.xml
+Sweden:
+  Authority:
+    Sweden - CAP Swedish Civil Contingencies Agency - English: https://cap-sources.s3.amazonaws.com/se-msb-en/rss.xml
+Switzerland:
+  Authority:
+    Switzerland - CAP Federal Office for Civil Protection - English: https://cap-sources.s3.amazonaws.com/ch-focp-en/rss.xml
+    Switzerland - CAP Office fédéral de la protection de la population - Français: https://cap-sources.s3.amazonaws.com/ch-focp-fr/rss.xml
+    Switzerland - CAP Ufficio federale della protezione della popolazione - Italiano: https://cap-sources.s3.amazonaws.com/ch-focp-it/rss.xml
+Syrian Arab Republic:
+  Authority:
+    Syrian Arab Republic - CAP مديرية شؤون الحرائق والكوارث - العربية: https://cap-sources.s3.amazonaws.com/sy-mola-ar/rss.xml
+    Syrian Arab Republic - CAP Directorate of Fire and Disaster Affairs - English: https://cap-sources.s3.amazonaws.com/sy-mola-en/rss.xml
+    Syrian Arab Republic - CAP Serokatiya Daîreya Karên Agirkujiyê û Karesatê - Kurmancî: https://cap-sources.s3.amazonaws.com/sy-mola-kmr/rss.xml
+    Syrian Arab Republic - CAP مديرية الأرصاد الجوية - العربية: https://cap-sources.s3.amazonaws.com/sy-meteo-ar/rss.xml
+    Syrian Arab Republic - CAP Meteorological Directorate - English: https://cap-sources.s3.amazonaws.com/sy-meteo-en/rss.xml
+    Syrian Arab Republic - CAP Meteoroloji Müdürlüğü - Kurmancî: https://cap-sources.s3.amazonaws.com/sy-meteo-kmr/rss.xml
+Tajikistan:
+  Authority:
+    Tajikistan - CAP Agency for Hydrometeorology - English: https://cap-sources.s3.amazonaws.com/tj-meteo-en/rss.xml
+    Tajikistan - CAP Агентство по гидрометеорологии - Русский: https://cap-sources.s3.amazonaws.com/tj-meteo-ru/rss.xml
+    Tajikistan - CAP Committee of Emergency Situations and Civil Defense - English: https://cap-sources.s3.amazonaws.com/tj-khf-en/rss.xml
+    Tajikistan - CAP Комитет по чрезвычайным ситуациям и гражданской обороне - Русский: https://cap-sources.s3.amazonaws.com/tj-khf-ru/rss.xml
+Tanzania, United Republic of:
+  Authority:
+    Tanzania, United Republic of - CAP Disaster Management Department - English: https://cap-sources.s3.amazonaws.com/tz-dmd-en/rss.xml
+    Tanzania, United Republic of - CAP Idara ya Uratibu wa Shughuli za Maafa - Kiswahili: https://cap-sources.s3.amazonaws.com/tz-dmd-sw/rss.xml
+    Tanzania, United Republic of - CAP Tanzania Meteorological Authority - English: https://cap-sources.s3.amazonaws.com/tz-tma-en/rss.xml
+    Tanzania, United Republic of - CAP Mamlaka ya Hali ya Hewa Tanzania - Kiswahili: https://cap-sources.s3.amazonaws.com/tz-tma-sw/rss.xml
+Thailand:
+  Authority:
+    Thailand - CAP National Disaster Warning Center (NDWC) - English: https://cap-sources.s3.amazonaws.com/th-ndwc-en/rss.xml
+    Thailand - CAP ศูนย์เตือนภัยพิบัติแห่งชาติ - th: https://cap-sources.s3.amazonaws.com/th-ndwc-th/rss.xml
+Timor-Leste:
+  Authority:
+    Timor-Leste - CAP National Directorate of Civil Protection - English: https://cap-sources.s3.amazonaws.com/tl-dnpc-en/rss.xml
+    Timor-Leste - CAP Direcção Nacional de Protecção Civil - Português: https://cap-sources.s3.amazonaws.com/tl-dnpc-pt/rss.xml
+    Timor-Leste - CAP Diresaun Nasional Protesaun Sivil - Tetun: https://cap-sources.s3.amazonaws.com/tl-dnpc-tet/rss.xml
+    Timor-Leste - CAP National Directorate of Meteorology and Geophysics - English: https://cap-sources.s3.amazonaws.com/tl-dnmg-en/rss.xml
+    Timor-Leste - CAP Dirrecão Nacional Meteorologia e Geofisica - Português: https://cap-sources.s3.amazonaws.com/tl-dnmg-pt/rss.xml
+    Timor-Leste - CAP Diresaun Nasional Meteorolojia no Jeofízika - Tetun: https://cap-sources.s3.amazonaws.com/tl-dnmg-tet/rss.xml
+Togo:
+  Authority:
+    Togo - CAP National Civil Protection Agency - English: https://cap-sources.s3.amazonaws.com/tg-anpc-en/rss.xml
+    Togo - CAP Agence nationale de protection civile - Français: https://cap-sources.s3.amazonaws.com/tg-anpc-fr/rss.xml
+Tonga:
+  Authority:
+    Tonga - CAP National Emergency Management Office - English: https://cap-sources.s3.amazonaws.com/to-nemo-en/rss.xml
+Trinidad and Tobago:
+  Authority:
+    Trinidad and Tobago - CAP Office of Disaster  Preparedness and Management - English: https://cap-sources.s3.amazonaws.com/tt-odpm-en/rss.xml
+Tunisia:
+  Authority:
+    Tunisia - CAP المعهد الوطني للرصد الجوي - العربية: https://cap-sources.s3.amazonaws.com/tn-meteo-ar/rss.xml
+    Tunisia - CAP National Institute of Meteorology - English: https://cap-sources.s3.amazonaws.com/tn-meteo-en/rss.xml
+    Tunisia - CAP Institut National de la Meteorologie - Français: https://cap-sources.s3.amazonaws.com/tn-meteo-fr/rss.xml
+    Tunisia - CAP المكتب الوطني للحماية المدنية - العربية: https://cap-sources.s3.amazonaws.com/tn-onpc-ar/rss.xml
+    Tunisia - CAP National Office of Civil Protection - English: https://cap-sources.s3.amazonaws.com/tn-onpc-en/rss.xml
+    Tunisia - CAP Office National de la protection civile - Français: https://cap-sources.s3.amazonaws.com/tn-onpc-fr/rss.xml
+Turkmenistan:
+  Authority:
+    Turkmenistan - CAP Hydrometeorology Service - English: https://cap-sources.s3.amazonaws.com/tm-meteo-en/rss.xml
+    Turkmenistan - CAP Служба по гидрометеорологии - Русский: https://cap-sources.s3.amazonaws.com/tm-meteo-ru/rss.xml
+    Turkmenistan - CAP State Commission for Emergency Situations - English: https://cap-sources.s3.amazonaws.com/tm-emer-en/rss.xml
+    Turkmenistan - CAP Государственной комиссии по чрезвычайным ситуациям - Русский: https://cap-sources.s3.amazonaws.com/tm-emer-ru/rss.xml
+Turks and Caicos Islands:
+  Authority:
+    Turks and Caicos Islands - CAP TCI Emergency Alerts - English: https://cap-sources.s3.amazonaws.com/tc-gov-en/rss.xml
+    Turks and Caicos Islands - CAP Alèt Ijans TCI - ht: https://cap-sources.s3.amazonaws.com/tc-gov-ht/rss.xml
+    Turks and Caicos Islands - CAP TCI Alertas de Emergencia - Español: https://cap-sources.s3.amazonaws.com/tc-gov-es/rss.xml
+    Turks and Caicos Islands - CAP Department of Disaster Management and Emergencies - English: https://cap-sources.s3.amazonaws.com/tc-ddme-en/rss.xml
+    Turks and Caicos Islands - CAP Depatman Jesyon Dezas ak Ijans - ht: https://cap-sources.s3.amazonaws.com/tc-ddme-ht/rss.xml
+    Turks and Caicos Islands - CAP Departamento de Gestión de Desastres y Emergencias - Español: https://cap-sources.s3.amazonaws.com/tc-ddme-es/rss.xml
+    Turks and Caicos Islands - CAP National Weather Service - English: https://cap-sources.s3.amazonaws.com/tc-nws-en/rss.xml
+    Turks and Caicos Islands - CAP Sèvis Nasyonal Meteyo - ht: https://cap-sources.s3.amazonaws.com/tc-nws-ht/rss.xml
+    Turks and Caicos Islands - CAP Servicio Meteorológico Nacional - Español: https://cap-sources.s3.amazonaws.com/tc-nws-es/rss.xml
+Tuvalu:
+  Authority:
+    Tuvalu - CAP National Disaster Management Office - English: https://cap-sources.s3.amazonaws.com/tv-ndmo-en/rss.xml
+    Tuvalu - CAP Tuvalu Met Service - English: https://cap-sources.s3.amazonaws.com/tv-tuvmet-en/rss.xml
+Türkiye:
+  Authority:
+    Türkiye - CAP Disaster And Emergency Management Presidency - English: https://cap-sources.s3.amazonaws.com/tr-afad-en/rss.xml
+    Tirkiye - CAP Serokatiya Rêveberiya Karesat û Lezgîn - Kurmancî: https://cap-sources.s3.amazonaws.com/tr-afad-kmr/rss.xml
+    Türkiye - CAP Turkish State Meteorological Service - English: https://cap-sources.s3.amazonaws.com/tr-tsms-en/rss.xml
+    Tirkiye - CAP Servîsa Meteorolojiyê ya Dewleta Tirk - Kurmancî: https://cap-sources.s3.amazonaws.com/tr-tsms-kmr/rss.xml
+Uganda:
+  Authority:
+    Uganda - CAP National Emergency Coordination and Operations Centre - English: https://cap-sources.s3.amazonaws.com/ug-necoc-en/rss.xml
+    Uganda - CAP Kituo cha Uratibu na Uendeshaji wa Dharura ya Kitaifa - Kiswahili: https://cap-sources.s3.amazonaws.com/ug-necoc-sw/rss.xml
+    Uganda - CAP Ekitongole ekikwanaganya ebiggwaawo eby’embagirawo nekakkalabizo ly’emirimu - lg: https://cap-sources.s3.amazonaws.com/ug-necoc-lg/rss.xml
+    Uganda - CAP Department of Meteorological Services - English: https://cap-sources.s3.amazonaws.com/ug-dms-en/rss.xml
+    Uganda - CAP Idara ya Huduma za Hali ya Hewa - Kiswahili: https://cap-sources.s3.amazonaws.com/ug-dms-sw/rss.xml
+    Uganda - CAP Ekitongole ky’ebyobulambuzi - lg: https://cap-sources.s3.amazonaws.com/ug-dms-lg/rss.xml
+Ukraine:
+  Authority:
+    Ukraine - CAP State Emergency Service - English: https://cap-sources.s3.amazonaws.com/ua-dsns-en/rss.xml
+    Ukraine - CAP Державна служба надзвичайних ситуацій - uk: https://cap-sources.s3.amazonaws.com/ua-dsns-uk/rss.xml
+    Ukraine - CAP Ukrainian Hydrometeorological Center - English: https://cap-sources.s3.amazonaws.com/ua-meteo-en/rss.xml
+    Ukraine - CAP Український гідрометеорологічний центр - uk: https://cap-sources.s3.amazonaws.com/ua-meteo-uk/rss.xml
+United Arab Emirates:
+  Authority:
+    United Arab Emirates - CAP الهيئة الوطنية لإدارة الطوارئ والأزمات - العربية: https://cap-sources.s3.amazonaws.com/ae-ncema-ar/rss.xml
+    United Arab Emirates - CAP National Emergency Crisis and Disasters Management Authority - English: https://cap-sources.s3.amazonaws.com/ae-ncema-en/rss.xml
+    United Arab Emirates - CAP المركز الوطني للأرصاد الجوية - العربية: https://cap-sources.s3.amazonaws.com/ae-ncm-ar/rss.xml
+    United Arab Emirates - CAP National Center of Meteorology - English: https://cap-sources.s3.amazonaws.com/ae-ncm-en/rss.xml
+United Kingdom:
+  Authority:
+    United Kingdom - CAP Department of Disaster Management - English: https://cap-sources.s3.amazonaws.com/uk-bviddm-en/rss.xml
 United States:
-  FEMA / NWS (National):
-    CAP: https://alerts.weather.gov/cap/us.php
+  Authority:
+    United States - CAP Agency for International Development - English: https://cap-sources.s3.amazonaws.com/us-usaid-en/rss.xml
+    United States - CAP (New York) South Bronx Emergency Network (SBEN) - English: https://cap-sources.s3.amazonaws.com/us-sben-en/rss.xml
+    United States - CAP (New York) South Bronx Red de emergencias (SBEN) - Español: https://cap-sources.s3.amazonaws.com/us-sben-es/rss.xml
+  National:
+    United States - CAP National Weather Service - NOAA NWS Alerts (US) - English: https://alerts.weather.gov/cap/us.php
+Uruguay:
+  Authority:
+    Uruguay - CAP National Emergency System (SINAE) - English: https://cap-sources.s3.amazonaws.com/uy-sinae-en/rss.xml
+    Uruguay - CAP Sistema Nacional de Emergencias (SINAE) - Español: https://cap-sources.s3.amazonaws.com/uy-sinae-es/rss.xml
+Uzbekistan:
+  Authority:
+    Uzbekistan - CAP Center for Hydrometeorological Service - English: https://cap-sources.s3.amazonaws.com/uz-meteo-en/rss.xml
+    Uzbekistan - CAP ЦЕНТР ГИДРОМЕТЕОРОЛОГИЧЕСКОЙ СЛУЖБЫ - Русский: https://cap-sources.s3.amazonaws.com/uz-meteo-ru/rss.xml
+    Uzbekistan - CAP Ministry of Emergency Situations - English: https://cap-sources.s3.amazonaws.com/uz-fw-en/rss.xml
+    Uzbekistan - CAP министерство чрезвычайных ситуаций - Русский: https://cap-sources.s3.amazonaws.com/uz-fw-ru/rss.xml
+Vanuatu:
+  Authority:
+    Vanuatu - CAP National Disaster Management Office - English: https://cap-sources.s3.amazonaws.com/vu-ndmo-en/rss.xml
+    Vanuatu - CAP Vanuatu Meteorology and Geo-hazards Department - English: https://cap-sources.s3.amazonaws.com/vu-vmgd-en/rss.xml
+Venezuela:
+  Authority:
+    Venezuela - CAP Civil Protection and Disaster Administration - English: https://cap-sources.s3.amazonaws.com/ve-pcivil-en/rss.xml
+    Venezuela - CAP Protección Civil y Administración de Desastres - Español: https://cap-sources.s3.amazonaws.com/ve-pcivil-es/rss.xml
+    Venezuela - CAP National Institute of Meteorology and Hydrology - English: https://cap-sources.s3.amazonaws.com/ve-inameh-en/rss.xml
+    Venezuela - CAP Instituto Nacional de Meteorología e Hidrología - Español: https://cap-sources.s3.amazonaws.com/ve-inameh-es/rss.xml
+Viet Nam:
+  Authority:
+    Viet Nam - CAP Disaster Management Center - English: https://cap-sources.s3.amazonaws.com/vn-dmc-en/rss.xml
+    Viet Nam - CAP Trung tâm quản lý thiên tai - vi: https://cap-sources.s3.amazonaws.com/vn-dmc-vi/rss.xml
+Yemen:
+  Authority:
+    Yemen - CAP مصلحة الدفاع المدني - العربية: https://cap-sources.s3.amazonaws.com/ye-cda-ar/rss.xml
+    Yemen - CAP Civil Defense Authority - English: https://cap-sources.s3.amazonaws.com/ye-cda-en/rss.xml
+    Yemen - CAP دائرة الأرصاد الجوية اليمنية - العربية: https://cap-sources.s3.amazonaws.com/ye-yms-ar/rss.xml
+    Yemen - CAP Yemen Meteorological Service - English: https://cap-sources.s3.amazonaws.com/ye-yms-en/rss.xml
+Zambia:
+  Authority:
+    Zambia - CAP Disaster Management and Mitigation Unit - English: https://cap-sources.s3.amazonaws.com/zm-dmmu-en/rss.xml
+    Zambia - CAP Zambia Meteorological Department - English: https://cap-sources.s3.amazonaws.com/zm-zmd-en/rss.xml
+    Zambia - CAP Zambia National Government - English: https://cap-sources.s3.amazonaws.com/zm-gov-en/rss.xml
+    Zambia - CAP Zambia Red Cross Society - English: https://cap-sources.s3.amazonaws.com/zm-zrcs-en/rss.xml
+Zimbabwe:
+  Authority:
+    Zimbabwe - CAP Civil Protection - English: https://cap-sources.s3.amazonaws.com/zw-cp-en/rss.xml
+    Zimbabwe - CAP Kudzivirirwa Kwemagariro - sn: https://cap-sources.s3.amazonaws.com/zw-cp-sn/rss.xml
+    Zimbabwe - CAP Meteorological Services Department - English: https://cap-sources.s3.amazonaws.com/zw-msd-en/rss.xml
+    Zimbabwe - CAP Meteorological Services Dhipatimendi - sn: https://cap-sources.s3.amazonaws.com/zw-msd-sn/rss.xml
+    Zimbabwe - CAP National Government - English: https://cap-sources.s3.amazonaws.com/zw-gov-en/rss.xml
+    Zimbabwe - CAP Hurumende Yenyika - sn: https://cap-sources.s3.amazonaws.com/zw-gov-sn/rss.xml

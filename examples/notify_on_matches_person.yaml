@@ -1,0 +1,24 @@
+# examples/notify_on_matches_person.yaml
+alias: Notify on local CAP matches (Person)
+mode: single
+trigger:
+  - platform: time_pattern
+    minutes: "/10"
+action:
+  - service: cap_alerts.find_matches
+    data:
+      lat: "{{ state_attr('person.michael','latitude') }}"
+      lon: "{{ state_attr('person.michael','longitude') }}"
+      radius_km: 10
+  - wait_for_trigger:
+      - platform: event
+        event_type: cap_alerts.matches
+    timeout: "00:00:10"
+  - choose:
+      - conditions: "{{ trigger.event.data.count | int(0) > 0 }}"
+        sequence:
+          - service: notify.mobile_app_pixel
+            data:
+              title: "CAP alert near Michael"
+              message: >-
+                {{ (trigger.event.data.matches[0].alert.headline or 'n/a') }}

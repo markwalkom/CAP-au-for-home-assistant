@@ -1,5 +1,6 @@
 {
-  "name": "CAP feeds for Home Assistant (scaffold)",
-  "render_readme": true,
-  "homeassistant": "2025.12.0"
+  "name": "CAP Alerts (Multi-Feed)",
+  "homeassistant": "2025.12.0",
+  "persistent_directory": "custom_components/cap_alerts",
+  "render_readme": true
 }

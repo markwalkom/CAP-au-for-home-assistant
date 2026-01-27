@@ -1,7 +1,14 @@
-
-
-#Ignore vscode AI rules
+# Ignore special project folders and files
 .github/
-.github/instructions/*.*
-.github/project-overview/*.*
-*.code-workspace
+
+# Ignore archives
+archive/
+
+# Ignore testing folders
+# None at this time
+
+# Ignore log folders
+# None at this time
+
+# Ignore supporting scripts
+scripts/sync_to_onedrive.ps1

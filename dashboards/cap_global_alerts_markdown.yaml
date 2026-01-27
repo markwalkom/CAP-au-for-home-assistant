@@ -1,12 +1,6 @@
 # dashboards/cap_global_alerts_markdown.yaml
-# Paste this content into a Markdown card
-{% set alerts = (state_attr('sensor.cap_all_alert_count','alerts') | default('[]', true) | from_json) %}
-## ⚠️ CAP Alerts (all feeds) — {{ states('sensor.cap_all_alert_count') | int(0) }} total
-
-{% for a in alerts[:100] %}
-- **{{ a.headline or a.event or a.identifier }}**  
-  Severity: {{ (a.severity or 'n/a')|title }} · Urgency: {{ (a.urgency or 'n/a')|title }}  
-  Area: {{ a.areaDesc or 'n/a' }}  
-  Issued: {{ (a.sent | as_timestamp) | timestamp_custom('%a %d %b %Y %H:%M', true) if a.sent else 'n/a' }}  
-  Link: {{ a.link or 'n/a' }}
+{% set raw = state_attr('sensor.cap_all_alert_count','raw') or [] %}
+## ⚠️ CAP Alerts (all feeds): {{ states('sensor.cap_all_alert_count') | int(0) }} total
+{% for feed in raw %}
+- **{{ feed.feed.name if feed.feed else 'Feed' }}** — {{ (feed.alerts | count) if feed.alerts is iterable else 0 }} items
 {% endfor %}

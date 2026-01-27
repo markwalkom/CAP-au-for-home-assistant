@@ -1,0 +1,12 @@
+{
+  "issues": {
+    "disclaimer_required": {
+      "title": "CAP Alerts disabled — disclaimer acceptance required",
+      "description": "CAP Alerts is disabled until you accept the legal disclaimer.\n\nOpen the integration and reconfigure to accept, or visit: {link}"
+    },
+    "feed_disabled": {
+      "title": "Feed disabled due to repeated failures",
+      "description": "Feed {slug} ({url}) was disabled after repeated failures. Use Options to reset failures once resolved."
+    }
+  }
+}

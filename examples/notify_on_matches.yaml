@@ -1,0 +1,25 @@
+# examples/notify_on_matches.yaml
+alias: Notify on local CAP matches
+mode: single
+trigger:
+  - platform: time_pattern
+    minutes: "/10"
+action:
+  - service: cap_alerts.find_matches
+    data:
+      lat: !secret home_lat
+      lon: !secret home_lon
+      radius_km: 15
+  - wait_for_trigger:
+      - platform: event
+        event_type: cap_alerts.matches
+    timeout: "00:00:10"
+  - choose:
+      - conditions: "{{ trigger.event.data.count | int(0) > 0 }}"
+        sequence:
+          - service: persistent_notification.create
+            data:
+              title: "CAP Matches near home"
+              message: >-
+                {{ trigger.event.data.count }} match(es) within 15 km. First: 
+                {{ (trigger.event.data.matches[0].alert.headline or 'n/a') }}

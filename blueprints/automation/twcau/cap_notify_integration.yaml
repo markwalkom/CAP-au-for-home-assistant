@@ -1,0 +1,19 @@
+blueprint:
+  name: CAP Alerts → Notify (integration sensor)
+  domain: automation
+  input:
+    alert_sensor:
+      name: Global CAP sensor
+      selector:
+        entity:
+          domain: sensor
+          multiple: false
+trigger:
+  - platform: state
+    entity_id: !input alert_sensor
+action:
+  - service: persistent_notification.create
+    data:
+      title: CAP Alerts
+      message: >-
+        Global count changed to {{ states(trigger.entity_id) }}.
