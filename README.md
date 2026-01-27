@@ -15,6 +15,7 @@ The package is intended to be **easy to install**, **offer safe defaults**, and 
 
 > [!CAUTION]
 > **DISCLAIMER**
+>
 > This project is free software under **GPL‑3.0** and is provided **“AS IS”** and **“AS AVAILABLE,” WITHOUT WARRANTIES** of any kind (including **merchantability**, **fitness**, **title**, **non‑infringement**, accuracy, timeliness). It is **not** a primary or official emergency information source. **Always** monitor and act on **official** warnings. **Liability is limited to the maximum extent permitted by law**; you **assume all risk** and must independently verify outputs and maintain separate official channels. See **[LEGAL-DISCLAIMER.md](LEGAL-DISCLAIMER.md)** for full terms.
 
 > [!WARNING]
