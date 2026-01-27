@@ -19,7 +19,8 @@ The package is intended to be **easy to install**, **offer safe defaults**, and 
 
 > [!WARNING]
 > **Still In Very Early Development**
-> This repository and integration is still in very very early and active development. Please bear this in mind if attempting to use, contribute, or make suggestions.
+>
+> This repository and integration is still in very very early and active development. Some parts of the code may not have even reached the testing, verification or validation stages as yet. Please bear this in mind if making any attempt to use, contribute, or make suggestions to this repository.
 
 - [Summary](#summary)
 - [Intended key features of future package](#intended-key-features-of-future-package)
@@ -46,6 +47,7 @@ The package is intended to be **easy to install**, **offer safe defaults**, and 
 - [Limitations \& notes](#limitations--notes)
 - [Troubleshooting](#troubleshooting)
   - [Repairs \& Fail‑safes](#repairs--failsafes)
+- [Testing translations](#testing-translations)
 - [Links \& supporting documentation](#links--supporting-documentation)
 
 ---
@@ -308,6 +310,24 @@ action:
 
 - **Disclaimer required**: If the disclaimer isn’t accepted or has changed, CAP Alerts remains disabled and a **Repairs** issue explains how to reaccept.
 - **Feed disabled**: A feed that repeatedly fails (default 5 consecutive failures) is temporarily disabled. Use **Options → Reset failures for feed** after resolving the underlying issue to re‑enable.
+
+## Testing translations
+
+To validate localisation (l10n/i18n) changes:
+
+- Change your language in Home Assistant: **Profile → Language**.
+- Open **Settings → Devices & Services → CAP Alerts → Configure** and review:
+  - Config Flow screens (titles, descriptions, field labels)
+  - Options Flow (fields, actions)
+  - Any Repairs issues raised by the integration
+- Check placeholders like {link}, {slug}, {url} remain present and correct.
+- Optionally run the missing‑keys check:
+
+```bash
+python scripts/check_missing_translation_keys.py
+```
+
+If any missing keys or placeholders are detected, the script lists them for each locale.
 
 ## Links & supporting documentation
 
