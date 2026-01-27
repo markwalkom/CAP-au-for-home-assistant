@@ -1,10 +1,12 @@
 <!-- omit from toc -->
 # CAP Alerts (Multi‑Feed) — Custom Integration (HACS)
 
-Integration to turn public **CAP / ATOM / JSON** emergency feeds into actionable sensors, services, and dashboards — **no YAML edits**.
+Repo for future Home Assistant HACS package integration and associated files, to turn public **CAP / ATOM / JSON** emergency feeds which users can then turn into privacy‑preserving actionable sensors, services, dashboards and cards — with **no YAML edits** (I hope).
 
-> [!WARNING]
-> **DO NOT USE THIS INTEGRATION AS YOUR PRIMARY EMERGENCY INFORMATION SOURCE**
+The package is intended to be **easy to install**, **offer safe defaults**, and provide **multi‑feed* support.
+
+> [!CAUTION]
+> **DO NOT USE THIS INTEGRATION AS YOUR PRIMARY AND/OR SOLE EMERGENCY INFORMATION SOURCE**
 >
 > This intergration:
 >
@@ -14,6 +16,10 @@ Integration to turn public **CAP / ATOM / JSON** emergency feeds into actionable
 > [!CAUTION]
 > **DISCLAIMER**
 > This project is free software under **GPL‑3.0** and is provided **“AS IS”** and **“AS AVAILABLE,” WITHOUT WARRANTIES** of any kind (including **merchantability**, **fitness**, **title**, **non‑infringement**, accuracy, timeliness). It is **not** a primary or official emergency information source. **Always** monitor and act on **official** warnings. **Liability is limited to the maximum extent permitted by law**; you **assume all risk** and must independently verify outputs and maintain separate official channels. See **[LEGAL-DISCLAIMER.md](LEGAL-DISCLAIMER.md)** for full terms.
+
+> [!WARNING]
+> **Still In Very Early Development**
+> This repository and integration is still in very very early and active development. Please bear this in mind if attempting to use, contribute, or make suggestions.
 
 - [Summary](#summary)
 - [Intended key features of future package](#intended-key-features-of-future-package)
@@ -46,12 +52,9 @@ Integration to turn public **CAP / ATOM / JSON** emergency feeds into actionable
 
 ## Summary
 
-Repo for future Home Assistant HACS package and associated files, currently called **CAP-au-for-Home-Assistant**, that is intended to support ingest official CAP (Common Alerting Protocol) and other feeds into Home Assistant - which users can then turn into actionable, privacy‑preserving automations and UI views.
-
-The package is intended to be **easy to install**, **offer safe defaults**, and provide **multi‑feed*- support.
-
 > [!WARNING]
 > **Integration only intended as a supporting tool**
+>
 > This integration is only intended to help and support you during incidents, including:
 >
 > - Receive warnings of incidents believed to be impacting the locations you specify,
@@ -60,6 +63,7 @@ The package is intended to be **easy to install**, **offer safe defaults**, and 
 
 > [!WARNING]
 > **What can impact warnings, warning updates, and warning frequency**
+>
 > Warnings, warning updates, and warning frequency, can be impacted by:
 >
 > - Cooldown periods, to ensure emergency management agency servers are not overloaded with unnecessary requests;
@@ -75,9 +79,9 @@ The package is intended to be **easy to install**, **offer safe defaults**, and 
 - **Geometry services** built‑in: point‑in‑polygon, proximity matching, create zones from polygons/circles
 - **Multiple location monitoring** so you can filter alerts that are relevant to one or more locations (along with a radius or distance from border of location) to reduce noise.
 - **Unified alerts sensor**: a template aggregator exposes a count plus an `alerts` JSON attribute that dashboards and automations can consume.
-- **Blueprints*- for:
-  - **Notifications near watchpoints*- (radius for circles + point‑in‑polygon for polygons).
-  - **Zones lifecycle*- (create/update/delete dynamic zones from alert geometry).
+- **Blueprints** for:
+  - **Notifications** near watchpoints (radius for circles + point‑in‑polygon for polygons).
+  - **Zones lifecycle** (create/update/delete dynamic zones from alert geometry).
 - Works with dashboards & automations (examples below)
 
 ## Feeds
@@ -92,7 +96,7 @@ When choosing a feed that lacks information to identify where an alert physicall
 
 ### Where can I find supported feeds?
 
-To asssit users, we have made efforts to have and maintain a catalog of known feeds, which we obtain from reliable sources.
+To asssit users, we have made efforts to have and maintain a catalog of known feeds, which we make an effort obtain from reliable sources, that are listed below.
 
 When adding a feed using this integration, you will be presented with a navigable list of supported feeds by country and region, and in future - also filtered by language, from this catalog.
 
@@ -130,31 +134,39 @@ More information on CAP-au: [Data.gov.au](https://data.gov.au/data/dataset/cap-a
 
 1. Install HACS.  
 2. HACS → *Integrations* → Search **“CAP Alerts (Multi‑Feed)”** → *Install*.
-3. Add the integration:  
-   [![Add Integration](https://my.home-assistant.io/badges/integrations.svg)](https://my.home-assistant.io/redirect/integrations/) → **CAP Alerts**.
+3. Add the integration via:  
+   [Add Integration](https://my.home-assistant.io/redirect/integrations/) → **CAP Alerts**.
+
+   [![Add Integration](https://my.home-assistant.io/badges/integrations.svg)](https://my.home-assistant.io/redirect/integrations/)
 
 ### B) Manual
 
-1. Copy `custom_components/cap_alerts/` to `/config/custom_components/`.
-2. Restart Home Assistant.
-3. Add the integration from **Settings → Devices & Services**.
+1. Add missing steps for adding the repo to HACS, if the user can't find in the HACS search.
+2. Copy `custom_components/cap_alerts/` to `/config/custom_components/`.
+3. Restart Home Assistant.
+4. Add the integration from **Settings → Devices & Services**.
 
 ## First‑time Setup (Config Flow)
 
-1. Navigate to *specify location in HA and provide deep link to same if possible*
-2. Choose **Browse catalogue** or **Manual URL**:
+// [ ] TODO: Add location of where the user goes to start the setup if not already there.
+// [ ] TODO: Add steps on how to set or choose watch locations, zone, or people to receive alerts for.
+
+1. Navigate to *specify location in HA and provide deep link to same if possible*.
+2. Read and accept the **[Legal Disclaimer](#legal-disclaimer-acceptance)** (you cannot use the integration without doing this).
+3. *Add steps on how to set or choose watch locations, zone, or people to receive alerts for.
+4. Choose **Browse catalogue** or **Manual URL**:
    - **Browse** uses the live `data/feed_catalog.json` from this repo (no releases needed for updates).
    - **Manual** supports `cap`, `atom`, or `json`.
 
-Add more feeds any time via the integration by going to **Options**.
+You can then add more feeds at any time with the integration by going to **Options**.
 
 ### Legal Disclaimer Acceptance
 
-During setup, you must accept the **Legal Disclaimer**. The full text is presented in the UI and linked to [LEGAL‑DISCLAIMER.md](LEGAL-DISCLAIMER.md). Your acceptance records the time, your user ID, and a signed hash of the disclaimer text. If the disclaimer changes or the record is altered, the integration will be disabled and a **Repairs** message will be shown until you reaccept.
+During setup, you must accept the **Legal Disclaimer**. The full text is presented in the UI and linked to [LEGAL‑DISCLAIMER.md](LEGAL-DISCLAIMER.md). Your acceptance records the time, your user ID, and a signed hash of the disclaimer text. If the disclaimer changes or the record is altered, the integration will be disabled and a **Repairs** message will be shown until you reaccept the disclaimer.
 
 ### Choosing your watch locations & radius
 
-// [ ] FIXME: Add information here on where to specify the watch locations and radiuses
+// [ ] FIXME: Add information here on where to specify the watch locations and radiuses, noting earlier TODO
 
 Add information here on where to set and specify the watch locations and radiuses.
 
@@ -246,7 +258,7 @@ action:
         sequence:
           - service: notify.mobile_app_pixel
             data:
-              title: "CAP alert near Michael"
+              title: "CAP alert near personname"
               message: >-
                 {{ (trigger.event.data.matches[0].alert.headline or 'n/a') }}
 ```

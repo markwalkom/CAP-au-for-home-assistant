@@ -29,6 +29,7 @@ class CAPCoordinator(DataUpdateCoordinator):
         self.data = []
         hass.data.setdefault(DOMAIN, {})
         hass.data[DOMAIN].setdefault('failures', {})
+        hass.data[DOMAIN].setdefault('empty_alerts', {})
 
     async def _async_update_data(self):
         results = []
@@ -51,6 +52,17 @@ class CAPCoordinator(DataUpdateCoordinator):
                         warn = not (features.get('has_polygons') or features.get('has_circles') or features.get('has_points'))
                         if warn:
                             features['warning'] = 'Feed appears to lack geometry (polygons/circles/points)'
+                            # Raise Repairs issue to inform the user explicitly
+                            raise_issue(self.hass, f"{ISSUE_FEED_NO_GEOMETRY_PREFIX}{slug}", translation_key="feed_no_geometry", placeholders={"slug": slug, "url": url}, fixable=False)
+                        # Track empty alerts and raise Repairs issue if persistently empty (usefulness impacted)
+                        if isinstance(alerts, list) and not alerts and not features.get('error'):
+                            empties = self.hass.data[DOMAIN]['empty_alerts'].get(slug, 0) + 1
+                            self.hass.data[DOMAIN]['empty_alerts'][slug] = empties
+                            if empties >= EMPTY_ALERTS_THRESHOLD:
+                                raise_issue(self.hass, f"{ISSUE_FEED_NO_CONTENT_PREFIX}{slug}", translation_key="feed_no_content", placeholders={"slug": slug, "url": url}, fixable=False)
+                        else:
+                            # Reset when we have content or an error handled elsewhere
+                            self.hass.data[DOMAIN]['empty_alerts'][slug] = 0
                         results.append({'feed': f, 'slug': slug, 'alerts': alerts, 'features': features})
                 except Exception:
                     failures += 1
