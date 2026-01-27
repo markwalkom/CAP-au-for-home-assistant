@@ -1,0 +1,68 @@
+blueprint:
+  name: CAP Alerts → Notifications (multi‑feed)
+  description: >
+    Send notifications when new CAP alerts match your watchpoints. Supports selecting one or more per‑feed or the global alerts sensor.
+  domain: automation
+  input:
+    alert_sensors:
+      name: Alerts sensor(s)
+      description: Select one or more `sensor.cap_*_alert_count` or the global `sensor.cap_all_alert_count`.
+      selector:
+        entity:
+          domain: sensor
+          multiple: true
+    watchpoints:
+      name: Watchpoints (lat,lon)
+      description: Comma‑separated `lat,lon` pairs (e.g., `-31.746,115.767`).
+      selector:
+        text:
+    circle_radius_km:
+      name: Circle radius (km)
+      default: 10
+      selector:
+        number:
+          min: 1
+          max: 100
+          step: 1
+          unit_of_measurement: km
+    notify_target:
+      name: Notify target
+      description: Select a notify entity or group.
+      selector:
+        entity:
+          domain: notify
+
+mode: single
+max_exceeded: silent
+
+variables:
+  alert_sensors: !input alert_sensors
+  watchpoints: >-
+    {{ ("" ~ (!input watchpoints)) | trim }}
+  circle_radius_km: !input circle_radius_km
+
+trigger:
+  - platform: state
+    entity_id: !input alert_sensors
+
+condition: []
+
+action:
+  - variables:
+      alerts: >-
+        {% set out = [] %}
+        {% for e in alert_sensors %}
+          {% set a = state_attr(e, 'alerts') | default('[]', true) | from_json %}
+          {% set out = out + a %}
+        {% endfor %}
+        {{ out }}
+  # NOTE: This blueprint demonstrates aggregation of selected sensors.
+  # The actual point‑in‑polygon / distance checks can be delegated to python_scripts
+  # or implemented inline. Keep as a scaffold here.
+  - choose: []
+    default:
+      - service: persistent_notification.create
+        data:
+          title: "CAP Alerts"
+          message: >-
+            {{ alerts | count }} alert(s) currently loaded from selected feed(s).

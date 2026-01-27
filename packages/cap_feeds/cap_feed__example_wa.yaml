@@ -1,0 +1,180 @@
+# packages/cap_feeds/cap_feed__example_wa.yaml
+# Example: Western Australia CAP feed (feed_id: wa)
+# Duplicate this file for additional feeds and adjust `feed_id`, `resource`, and unique_id/name prefixes.
+
+# --- CONFIGURATION ---
+# Set your unique short feed identifier (lowercase, no spaces)
+# This identifier is embedded in entity_ids: sensor.cap_<feed_id>_*
+#
+# feed_id: wa
+
+multiscrape:
+  - name: "CAP feed wa"
+    resource: "https://api.emergency.wa.gov.au/v1/capau"
+    parser: lxml-xml
+    scan_interval: 300
+    verify_ssl: true
+    list_separator: "||"
+    sensor:
+      - unique_id: cap_wa_identifiers
+        name: "CAP wa identifiers"
+        select_list: "identifier"
+        value_template: >
+          {% set s = value | default('', true) %}
+          {{ (s.split('||') if s else []) | select('ne','') | list | count }}
+        attributes:
+          - name: items
+            select_list: "identifier"
+            value_template: "{{ value }}"
+
+      - unique_id: cap_wa_sent
+        name: "CAP wa sent"
+        select_list: "sent"
+        value_template: >
+          {% set s = value | default('', true) %}
+          {{ (s.split('||') if s else []) | select('ne','') | list | count }}
+        attributes:
+          - name: items
+            select_list: "sent"
+            value_template: "{{ value }}"
+
+      - unique_id: cap_wa_headlines
+        name: "CAP wa headlines"
+        select_list: "info > headline"
+        value_template: >
+          {% set s = value | default('', true) %}
+          {{ (s.split('||') if s else []) | select('ne','') | list | count }}
+        attributes:
+          - name: items
+            select_list: "info > headline"
+            value_template: "{{ value }}"
+
+      - unique_id: cap_wa_events
+        name: "CAP wa events"
+        select_list: "info > event"
+        value_template: >
+          {% set s = value | default('', true) %}
+          {{ (s.split('||') if s else []) | select('ne','') | list | count }}
+        attributes:
+          - name: items
+            select_list: "info > event"
+            value_template: "{{ value }}"
+
+      - unique_id: cap_wa_severity
+        name: "CAP wa severity"
+        select_list: "info > severity"
+        value_template: >
+          {% set s = value | default('', true) %}
+          {{ (s.split('||') if s else []) | select('ne','') | list | count }}
+        attributes:
+          - name: items
+            select_list: "info > severity"
+            value_template: "{{ value }}"
+
+      - unique_id: cap_wa_urgency
+        name: "CAP wa urgency"
+        select_list: "info > urgency"
+        value_template: >
+          {% set s = value | default('', true) %}
+          {{ (s.split('||') if s else []) | select('ne','') | list | count }}
+        attributes:
+          - name: items
+            select_list: "info > urgency"
+            value_template: "{{ value }}"
+
+      - unique_id: cap_wa_areadesc
+        name: "CAP wa areaDesc"
+        select_list: "info > area > areaDesc"
+        value_template: >
+          {% set s = value | default('', true) %}
+          {{ (s.split('||') if s else []) | select('ne','') | list | count }}
+        attributes:
+          - name: items
+            select_list: "info > area > areaDesc"
+            value_template: "{{ value }}"
+
+      - unique_id: cap_wa_polygon
+        name: "CAP wa polygon"
+        select_list: "info > area > polygon"
+        value_template: >
+          {% set s = value | default('', true) %}
+          {{ (s.split('||') if s else []) | select('ne','') | list | count }}
+        attributes:
+          - name: items
+            select_list: "info > area > polygon"
+            value_template: "{{ value }}"
+
+      - unique_id: cap_wa_circle
+        name: "CAP wa circle"
+        select_list: "info > area > circle"
+        value_template: >
+          {% set s = value | default('', true) %}
+          {{ (s.split('||') if s else []) | select('ne','') | list | count }}
+        attributes:
+          - name: items
+            select_list: "info > area > circle"
+            value_template: "{{ value }}"
+
+      - unique_id: cap_wa_web
+        name: "CAP wa web"
+        select_list: "info > web"
+        value_template: >
+          {% set s = value | default('', true) %}
+          {{ (s.split('||') if s else []) | select('ne','') | list | count }}
+        attributes:
+          - name: items
+            select_list: "info > web"
+            value_template: "{{ value }}"
+
+# Per‑feed aggregator (builds `alerts` JSON from the 10 per‑field sensors)
+
+template:
+  - sensor:
+      - name: "CAP wa Alert Count"
+        unique_id: cap_wa_alert_count
+        state: >
+          {% set ids = state_attr('sensor.cap_wa_identifiers','items') | default('', true) %}
+          {% set items = ids.split('||') if ids else [] %}
+          {{ items | select('ne','') | list | count }}
+        attributes:
+          alerts: >
+            {% set U = ['unknown','unavailable', None] %}
+            {% set ids   = state_attr('sensor.cap_wa_identifiers','items') | default('', true) %}
+            {% set sents = state_attr('sensor.cap_wa_sent','items')        | default('', true) %}
+            {% set heads = state_attr('sensor.cap_wa_headlines','items')   | default('', true) %}
+            {% set evts  = state_attr('sensor.cap_wa_events','items')      | default('', true) %}
+            {% set sevs  = state_attr('sensor.cap_wa_severity','items')    | default('', true) %}
+            {% set urg   = state_attr('sensor.cap_wa_urgency','items')     | default('', true) %}
+            {% set ads   = state_attr('sensor.cap_wa_areadesc','items')    | default('', true) %}
+            {% set polys = state_attr('sensor.cap_wa_polygon','items')     | default('', true) %}
+            {% set circs = state_attr('sensor.cap_wa_circle','items')      | default('', true) %}
+            {% set webs  = state_attr('sensor.cap_wa_web','items')         | default('', true) %}
+
+            {% set ids   = ids.split('||')   if ids   not in U else [] %}
+            {% set sents = sents.split('||') if sents not in U else [] %}
+            {% set heads = heads.split('||') if heads not in U else [] %}
+            {% set evts  = evts.split('||')  if evts  not in U else [] %}
+            {% set sevs  = sevs.split('||')  if sevs  not in U else [] %}
+            {% set urg   = urg.split('||')   if urg   not in U else [] %}
+            {% set ads   = ads.split('||')   if ads   not in U else [] %}
+            {% set polys = polys.split('||') if polys not in U else [] %}
+            {% set circs = circs.split('||') if circs not in U else [] %}
+            {% set webs  = webs.split('||')  if webs  not in U else [] %}
+
+            {% set out = [] %}
+            {% for i in range(ids|count) %}
+              {% set item = {
+                'identifier': ids[i]   | default(''),
+                'sent'      : sents[i] | default(''),
+                'headline'  : heads[i] | default(''),
+                'event'     : evts[i]  | default(''),
+                'severity'  : sevs[i]  | default(''),
+                'urgency'   : urg[i]   | default(''),
+                'areaDesc'  : ads[i]   | default(''),
+                'polygon'   : polys[i] | default(''),
+                'circle'    : circs[i] | default(''),
+                'link'      : webs[i]  | default('')
+              } %}
+              {% set out = out + [item] %}
+            {% endfor %}
+            {{ out | tojson }}

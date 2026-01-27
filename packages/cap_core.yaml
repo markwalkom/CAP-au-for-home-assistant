@@ -1,0 +1,31 @@
+# packages/cap_core.yaml
+# Core helpers & global aggregator for ALL CAP feeds (file-per-feed includes)
+# This file does not define any feed. Add files under packages/cap_feeds/ for each feed.
+
+input_select:
+  cap_active_feed:
+    name: Active CAP feed (for per‑feed dashboard views)
+    options:
+      - wa
+    initial: wa
+
+# Global aggregator: discovers all per‑feed alert_count sensors by pattern
+# and concatenates their `alerts` attributes into a single JSON array.
+
+template:
+  - sensor:
+      - name: "CAP All Alert Count"
+        unique_id: cap_all_alert_count
+        state: >
+          {% set feeds = states.sensor
+              | selectattr('entity_id','search','^sensor\.cap_.*_alert_count$')
+              | list %}
+          {{ feeds | map(attribute='state') | map('int', 0) | sum }}
+        attributes:
+          alerts: >
+            {% set out = [] %}
+            {% for s in states.sensor | selectattr('entity_id','search','^sensor\.cap_.*_alert_count$') %}
+              {% set a = state_attr(s.entity_id, 'alerts') | default('[]', true) | from_json %}
+              {% set out = out + a %}
+            {% endfor %}
+            {{ out | tojson }}

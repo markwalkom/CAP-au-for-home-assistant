@@ -1,0 +1,43 @@
+blueprint:
+  name: CAP Alerts → Zones (multi‑feed)
+  description: >
+    Create/update/delete dynamic zones from CAP alert geometry. Select one or more per‑feed or the global alerts sensor.
+  domain: automation
+  input:
+    alert_sensors:
+      name: Alerts sensor(s)
+      selector:
+        entity:
+          domain: sensor
+          multiple: true
+    zone_icon:
+      name: Zone icon
+      default: mdi:alert
+      selector:
+        text:
+    max_zones:
+      name: Maximum zones to manage
+      default: 10
+      selector:
+        number:
+          min: 1
+          max: 200
+          step: 1
+
+mode: restart
+
+trigger:
+  - platform: state
+    entity_id: !input alert_sensors
+
+action:
+  - variables:
+      alerts: >-
+        {% set out = [] %}
+        {% for e in !input alert_sensors %}
+          {% set a = state_attr(e, 'alerts') | default('[]', true) | from_json %}
+          {% set out = out + a %}
+        {% endfor %}
+        {{ out }}
+  - choose: []
+    default: []

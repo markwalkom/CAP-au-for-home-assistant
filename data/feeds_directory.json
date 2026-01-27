@@ -1,0 +1,13 @@
+{
+  "Australia": {
+    "Western Australia (Emergency WA)": {
+      "CAP": "https://api.emergency.wa.gov.au/v1/capau",
+      "JSON (warnings)": "https://www.emergency.wa.gov.au/data/message_warnings.json"
+    }
+  },
+  "United States": {
+    "FEMA / NWS (National)": {
+      "CAP": "https://alerts.weather.gov/cap/us.php"
+    }
+  }
+}

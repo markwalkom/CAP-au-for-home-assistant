@@ -1,0 +1,22 @@
+# scripts/cap_diagnostics.yaml
+cap_diagnostics:
+  alias: CAP Diagnostics
+  sequence:
+    - variables:
+        any_feed: >-
+          {{ (states.sensor | selectattr('entity_id','search','^sensor\.cap_.*_identifiers$') | list) | count > 0 }}
+    - choose:
+        - conditions: '{{ not any_feed }}'
+          sequence:
+            - service: persistent_notification.create
+              data:
+                title: "CAP Diagnostics"
+                message: >-
+                  No CAP feed sensors were found. Ensure you have copied a per‑feed file into packages/cap_feeds/ and restarted Home Assistant.
+        - conditions: '{{ any_feed }}'
+          sequence:
+            - service: persistent_notification.create
+              data:
+                title: "CAP Diagnostics"
+                message: >-
+                  CAP feed sensors detected. Global count: {{ states('sensor.cap_all_alert_count') }}.

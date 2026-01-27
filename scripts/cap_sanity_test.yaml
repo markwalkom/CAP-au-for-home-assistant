@@ -1,0 +1,14 @@
+# scripts/cap_sanity_test.yaml
+cap_sanity_test:
+  alias: CAP Sanity Test
+  sequence:
+    - action: python_script.cap_point_in_polygon
+      data:
+        polygon: "-31.741,115.762 -31.741,115.772 -31.751,115.772 -31.751,115.762 -31.741,115.762"
+        point_lat: -31.746
+        point_lon: 115.767
+    - action: python_script.cap_polygon_to_zone
+      data:
+        polygon: "-31.741,115.762 -31.741,115.772 -31.751,115.772 -31.751,115.762 -31.741,115.762"
+        name: cap_TEST
+        icon: mdi:alert

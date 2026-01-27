@@ -1,0 +1,14 @@
+# dashboards/cap_per_feed_alerts_markdown.yaml
+# Requires input_select.cap_active_feed to match your feed_id (e.g., wa)
+{% set fid = states('input_select.cap_active_feed') %}
+{% set e = 'sensor.cap_' ~ fid ~ '_alert_count' %}
+{% set alerts = (state_attr(e,'alerts') | default('[]', true) | from_json) %}
+## ⚠️ CAP Alerts — feed: {{ fid }} ({{ states(e) | int(0) }} total)
+
+{% for a in alerts[:100] %}
+- **{{ a.headline or a.event or a.identifier }}**  
+  Severity: {{ (a.severity or 'n/a')|title }} · Urgency: {{ (a.urgency or 'n/a')|title }}  
+  Area: {{ a.areaDesc or 'n/a' }}  
+  Issued: {{ (a.sent | as_timestamp) | timestamp_custom('%a %d %b %Y %H:%M', true) if a.sent else 'n/a' }}  
+  Link: {{ a.link or 'n/a' }}
+{% endfor %}
