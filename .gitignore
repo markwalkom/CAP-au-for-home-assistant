@@ -1,6 +1,7 @@
 
 
 #Ignore vscode AI rules
-.github\instructions\codacy.instructions.md
-.github\instructions\*
+.github/
+.github/instructions/*.*
+.github/project-overview/*.*
 *.code-workspace
