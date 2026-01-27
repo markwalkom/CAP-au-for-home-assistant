@@ -74,7 +74,7 @@ More information: [Data.gov.au](https://data.gov.au/data/dataset/cap-au-std)
 > [!NOTE]
 > **List still being expanded**
 >
-> This list of feeds is still being expanded as they are found (especially since they're hard to find, or some states or agencies don't make these available publically). Please feel welcome to make a commit of you find a new CAP-au feed.
+> This list of feeds is still being expanded as they are found (especially since they're hard to find, or some states or agencies don't make these available publically). Please feel welcome to make a commit if you find a new feed that follows the CAP-au specification.
 
 ### National
 
