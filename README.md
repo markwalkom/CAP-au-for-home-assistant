@@ -135,9 +135,10 @@ More information on CAP-au: [Data.gov.au](https://data.gov.au/data/dataset/cap-a
 
 ### A) HACS (recommended)
 
-1. Install HACS.  
-2. HACS → *Integrations* → Search **“CAP Alerts (Multi‑Feed)”** → *Install*.
-3. Add the integration via:  
+1. Install HACS.
+2. Add this as a custom integration respository
+3. HACS → *Integrations* → Search **“CAP Alerts (Multi‑Feed)”** → *Install*.
+4. Add the integration via:  
    [Add Integration](https://my.home-assistant.io/redirect/integrations/) → **CAP Alerts**.
 
    [![Add Integration](https://my.home-assistant.io/badges/integrations.svg)](https://my.home-assistant.io/redirect/integrations/)
